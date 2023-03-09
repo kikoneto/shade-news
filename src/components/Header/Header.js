@@ -22,7 +22,7 @@ export const Header = ({ setSkinColor }) => {
     const guestNav = (
         <ul className="nav guest-nav main-nav">
             <li className="sign-in" onClick={() => changeAuth('login')} >Sign In</li>
-            <li className="sign-up" onClick={() => changeAuth('login')} >Sign Up</li>
+            <li className="sign-up" onClick={() => changeAuth('register')} >Sign Up</li>
         </ul>
     )
 

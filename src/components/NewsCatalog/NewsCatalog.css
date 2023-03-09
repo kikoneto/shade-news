@@ -1,6 +1,7 @@
 /* News-Container */
 .news-container {
     display: flex;
+    
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -20,6 +21,7 @@
     text-align: center;
     transition: all 0.5s ease;
     overflow: hidden;
+    transition: height 1s ease, 0.4s width ease;
 }
 
 .new-box p {
@@ -39,12 +41,11 @@
 }
 
 .new-box:hover {
-    width: 390px;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.822);
-    transition: 0.5s all ease;
     cursor: pointer;
+    transition: height 1s ease, 0.4s width ease;
 }
 
 .new-box:hover p {
