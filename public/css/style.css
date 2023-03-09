@@ -4,6 +4,7 @@
 :root {
     --text-color: #40434e;
     --main-bg-color: #e8ebe4;
+    --skin-color: #ca2e55;
 }
 
 html {
@@ -341,7 +342,7 @@ body {
 
 .login-panel .login-additional .remember-container .remember.active {
     background-color: var(--skin-color);
-}   
+}
 
 .login-panel .login-additional .remember-container p {
     font-size: 0.9rem;

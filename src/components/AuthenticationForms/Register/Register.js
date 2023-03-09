@@ -1,12 +1,26 @@
 import './Register.css';
-import '../Authentication.css';
+
+import { useContext } from 'react';
+import { AuthIntContext } from '../../../contexts/userInteractionContext';
 
 export const Register = () => {
+
+    const { changeAuth, currAuth } = useContext(AuthIntContext)
+
+    const removeRegister = () => {
+        changeAuth('');
+    }
+
+    const redirectToLogin = (e) => {
+        e.preventDefault();
+        changeAuth('login');
+    }
+
     return (
-        <section className="register-section ">
+        <section className={currAuth === 'register' ? 'register-section dark' : 'register-section'}>
             <div className="register">
-                <div className="register-panel ">
-                    <i className="fa-solid fa-arrow-left"></i>
+                <div className={currAuth === 'register' ? 'register-panel active' : 'register-panel'}>
+                    <i className="fa-solid fa-arrow-left" onClick={removeRegister}></i>
                     <h1>Create an account</h1>
                     <form className="register-form">
                         <input type="text" placeholder="Username" />
@@ -18,7 +32,7 @@ export const Register = () => {
                     <div className="register-additional">
                         <div className="sign-now">
                             <p>Already have an <span>Account</span>?</p>
-                            <a href="#login">Sign In Now.</a>
+                            <a href="" onClick={redirectToLogin}>Sign In Now.</a>
                         </div>
 
                         <div className="help-container">

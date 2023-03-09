@@ -20,6 +20,11 @@ body {
     font-family: 'Varela Round', Poppins;
 }
 
+a {
+    text-decoration: none;
+    color: #40434e;
+}
+
 ::-webkit-scrollbar {
     width: 7px;
 }

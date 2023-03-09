@@ -1,12 +1,37 @@
 import './Login.css';
-import '../Authentication.css';
+
+import { useContext, useState } from 'react';
+import { AuthIntContext } from '../../../contexts/userInteractionContext';
 
 export const Login = () => {
+
+    const { changeAuth, currAuth } = useContext(AuthIntContext)
+    const [remembered, setRemembered] = useState(false);
+
+    const removeLogin = () => {
+        changeAuth('');
+    }
+
+    const redirectToRegister = (e) => {
+        e.preventDefault();
+        changeAuth('register');
+    }
+
+    const changeRemeber = () => {
+        if (remembered == true) {
+            setRemembered(false);
+        } else {
+            setRemembered(true)
+        }
+    }
+
+
+
     return (
-        <section className="login-section ">
+        <section className={currAuth === 'login' ? 'login-section dark' : 'login-section '}>
             <div className="login">
-                <div className="login-panel ">
-                    <i className="fa-solid fa-arrow-left"></i>
+                <div className={currAuth === 'login' ? 'login-panel active' : 'login-panel '}>
+                    <i className="fa-solid fa-arrow-left" onClick={removeLogin}></i>
                     <h1>Sign In</h1>
                     <form className="login-form">
                         <input type="text" placeholder="Username" />
@@ -17,13 +42,13 @@ export const Login = () => {
                         <div className="options-container">
 
                             <div className="remember-container">
-                                <div className="remember"></div>
+                                <div className={remembered ? 'remember active' : 'remember'} onClick={changeRemeber}></div>
                                 <p>Remember me</p>
                             </div>
 
                             <div className="sign-later">
                                 <p>New to Shade<span>News</span>?</p>
-                                <a href="#register">Sign Up Now.</a>
+                                <a href="" onClick={redirectToRegister}>Sign Up Now.</a>
                             </div>
 
                         </div>
