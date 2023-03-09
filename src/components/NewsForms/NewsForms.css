@@ -1,0 +1,43 @@
+.news-form-container {
+    padding: 20px;
+}
+
+.news-form {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+.news-form input {
+    height: 55px;
+    margin-top: 5px;
+    border: 1px solid var(--skin-color);
+    border-radius: 4px 0 0 4px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-align: center;
+    transition: all ease 0.5s;
+    background-color: #ffffff;
+}
+
+.news-form label {
+    font-size: 1.3rem;
+}
+
+.news-form select {
+    font-size: 1.2rem;
+    height: 55px;
+    border: 1px solid var(--skin-color);
+}
+
+.news-form input[type="submit"]:hover {
+    color: var(--skin-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all ease 0.5s;
+}
+
+.news-form input:focus::-webkit-input-placeholder {
+    color: transparent;
+}

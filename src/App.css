@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+    --text-color: #40434e;
+    --main-bg-color: #e8ebe4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    font-family: 'Varela Round', Poppins;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar {
+    width: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+    background: white(64, 67, 78, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--skin-color);
+    border-radius: 7px;
 }

@@ -1,0 +1,125 @@
+/* Register */
+.register-section .register-panel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 535px;
+    height: 620px;
+    min-height: 385px;
+    top: 0%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 101;
+    border-radius: 16px;
+    box-shadow: 0px 2px 14px var(--main-bg-color);
+    background-color: var(--main-bg-color);
+    transform: translateY(-1500px);
+    transition: all ease 0.5s;
+}
+
+.register-section .register-panel.active {
+    transform: translateY(10px);
+}
+
+.register-panel i {
+    font-size: 2rem;
+    margin-left: 38px;
+    margin-top: 27px;
+}
+
+.register-panel i:hover {
+    color: var(--skin-color);
+    cursor: pointer;
+}
+
+.register-panel h1 {
+    font-size: 2rem;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.register-panel .register-form {
+    text-align: center;
+}
+
+.register-panel .register-form input {
+    display: inline-block;
+    height: 55px;
+    width: 350px;
+    margin-top: 30px;
+    font-size: 1rem;
+    border: 1px solid var(--skin-color);
+    border-radius: 4px 0 0 4px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--skin-color);
+    text-align: center;
+}
+
+.register-panel .register-form input:focus {
+    border: 2px solid var(--skin-color);
+}
+
+.register-panel .register-form input[type="submit"] {
+    background-color: var(--skin-color);
+    color: var(--main-bg-color);
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: all ease 0.5s;
+}
+
+.register-panel .register-form input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: var(--skin-color);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all ease 0.5s;
+}
+
+.register-panel .register-form input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.register-panel .register-additional {
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    height: 130px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.register-panel .register-additional .help-container a {
+    transition: all ease 0.5s;
+    text-decoration: none;
+    color: var(--skin-color);
+}
+
+.register-panel .register-additional .help-container a:hover {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    transition: all ease 0.5s;
+}
+
+.register-panel .register-additional .sign-now p {
+    color: var(--text-color);
+}
+
+.register-panel .register-additional .sign-now span {
+    color: var(--skin-color);
+}
+
+.register-panel .register-additional .sign-now a {
+    text-decoration: none;
+    color: var(--skin-color);
+    transition: all ease 0.5s;
+}
+
+.register-panel .register-additional .sign-now a:hover {
+    color: var(--text-color);
+    transition: all ease 0.5s;
+}

@@ -1,0 +1,320 @@
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+
+    /* Autentication Forms */
+    .login-section .login-panel.active,
+    .register-section .register-panel.active {
+        transform: translateY(0px);
+    }
+
+    .login-section .login-panel,
+    .register-section .register-panel {
+        width: 70%;
+        height: 370px;
+        top: 5%;
+    }
+
+    .login-panel i,
+    .register-panel i {
+        font-size: 20px;
+        margin-left: 17px;
+        margin-top: 13px;
+    }
+
+    .login-panel h1,
+    .register-panel h1 {
+        font-size: 15px;
+    }
+
+    .login-panel .login-form input {
+        height: 45px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 15px;
+    }
+
+    .register-panel .register-form input {
+        height: 30px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 12px;
+    }
+
+    .login-panel .login-additional {
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container {
+        justify-content: space-around;
+    }
+
+    .register-panel .register-additional {
+        width: 90%;
+        height: 69px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container p,
+    .login-panel .login-additional .help-container a,
+    .register-panel .register-additional .sign-now a,
+    p,
+    .register-panel .register-additional .help-container a {
+        font-size: 12px;
+    }
+
+    .login-panel .login-additional .sign-later {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .login-panel .login-form input[type="submit"],
+    .register-panel .register-form input[type="submit"] {
+        background-color: var(--skin-color);
+        color: var(--main-bg-color);
+        font-weight: 500;
+        font-size: 15px;
+        transition: all ease 0.5s;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* Autentication Forms */
+    .login-section .login-panel.active,
+    .register-section .register-panel.active {
+        transform: translateY(0px);
+    }
+
+    .login-section .login-panel,
+    .register-section .register-panel {
+        width: 70%;
+        height: 370px;
+        top: 5%;
+    }
+
+    .login-panel i,
+    .register-panel i {
+        font-size: 20px;
+        margin-left: 17px;
+        margin-top: 13px;
+    }
+
+    .login-panel h1,
+    .register-panel h1 {
+        font-size: 15px;
+    }
+
+    .login-panel .login-form input {
+        height: 45px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 15px;
+    }
+
+    .register-panel .register-form input {
+        height: 30px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 12px;
+    }
+
+    .login-panel .login-additional {
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container {
+        justify-content: space-around;
+    }
+
+    .register-panel .register-additional {
+        width: 90%;
+        height: 69px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container p,
+    .login-panel .login-additional .help-container a,
+    .register-panel .register-additional .sign-now a,
+    p,
+    .register-panel .register-additional .help-container a {
+        font-size: 15px;
+    }
+
+    .login-panel .login-additional .sign-later {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .login-panel .login-form input[type="submit"],
+    .register-panel .register-form input[type="submit"] {
+        background-color: var(--skin-color);
+        color: var(--main-bg-color);
+        font-weight: 500;
+        font-size: 15px;
+        transition: all ease 0.5s;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* Autentication Forms */
+    .login-section .login-panel.active,
+    .register-section .register-panel.active {
+        transform: translateY(0px);
+    }
+
+    .login-section .login-panel,
+    .register-section .register-panel {
+        width: 70%;
+        height: 370px;
+        top: 5%;
+    }
+
+    .login-panel i,
+    .register-panel i {
+        font-size: 25px;
+        margin-left: 17px;
+        margin-top: 13px;
+    }
+
+    .login-panel h1,
+    .register-panel h1 {
+        font-size: 20px;
+    }
+
+    .login-panel .login-form input {
+        height: 45px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 15px;
+    }
+
+    .register-panel .register-form input {
+        height: 30px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 15px;
+    }
+
+    .login-panel .login-additional {
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container {
+        justify-content: space-around;
+    }
+
+    .register-panel .register-additional {
+        width: 90%;
+        height: 69px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container p,
+    .login-panel .login-additional .help-container a,
+    .register-panel .register-additional .sign-now a,
+    p,
+    .register-panel .register-additional .help-container a {
+        font-size: 15px;
+    }
+
+    .login-panel .login-additional .sign-later {
+        padding: 5px 0;
+        font-size: 19px;
+    }
+
+    .login-panel .login-form input[type="submit"],
+    .register-panel .register-form input[type="submit"] {
+        background-color: var(--skin-color);
+        color: var(--main-bg-color);
+        font-weight: 500;
+        font-size: 18px;
+        transition: all ease 0.5s;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    /* Autentication Forms */
+    .login-section .login-panel.active,
+    .register-section .register-panel.active {
+        transform: translateY(0px);
+    }
+
+    .login-section .login-panel,
+    .register-section .register-panel {
+        width: 70%;
+        height: 90%;
+        top: 2%;
+    }
+
+    .login-panel i,
+    .register-panel i {
+        font-size: 25px;
+        margin-left: 17px;
+        margin-top: 13px;
+    }
+
+    .login-panel h1,
+    .register-panel h1 {
+        font-size: 20px;
+    }
+
+    .login-panel .login-form input {
+        height: 45px;
+        width: 80%;
+        margin-top: 13px;
+        font-size: 20px;
+    }
+
+    .register-panel .register-form input {
+        height: 45px;
+        width: 80%;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .login-panel .login-additional {
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container {
+        justify-content: space-around;
+    }
+
+    .register-panel .register-additional {
+        width: 90%;
+        height: 69px;
+        padding: 10px;
+    }
+
+    .login-panel .login-additional .remember-container p,
+    .login-panel .login-additional .help-container a,
+    .register-panel .register-additional .sign-now a,
+    p,
+    .register-panel .register-additional .help-container a {
+        font-size: 15px;
+    }
+
+    .login-panel .login-additional .sign-later {
+        padding: 5px 0;
+        font-size: 19px;
+    }
+
+    .login-panel .login-form input[type="submit"],
+    .register-panel .register-form input[type="submit"] {
+        background-color: var(--skin-color);
+        color: var(--main-bg-color);
+        font-weight: 500;
+        font-size: 18px;
+        transition: all ease 0.5s;
+    }
+}

@@ -1,0 +1,124 @@
+/* Sign Out */
+.logout-section .logout-panel {
+    display: none;
+    border-radius: 16px;
+    box-shadow: 0px 2px 14px var(--main-bg-color);
+    position: relative;
+    z-index: 101;
+    width: 500px;
+    height: 260px;
+    top: 30%;
+    margin: 0 auto;
+    background-color: var(--main-bg-color);
+    transition: all ease 0.5s;
+}
+
+.logout-section .logout-panel.active {
+    display: block;
+    transition: all ease 0.5s;
+}
+
+.logout-section .logout-panel h2 {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 40px;
+    color: var(--text-color);
+}
+
+.logout-section .logout-panel h3 {
+    display: inline-block;
+    padding: 10px 42px;
+    color: var(--text-color);
+}
+
+.logout-section .logout-panel .button-container {
+    text-align: right;
+    margin: 0 30px;
+    padding: 5px;
+}
+
+.logout-section .logout-panel button {
+    height: 45px;
+    width: 120px;
+    margin: 25px 5px;
+    border: 1px solid var(--text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--main-bg-color);
+    background-color: var(--text-color);
+    box-shadow: 0px 2px 14px var(--text-color);
+    transition: all ease 0.5s;
+}
+
+.logout-section .logout-panel button:hover {
+    color: var(--skin-color);
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+    .logout-section .logout-panel.active {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .logout-section .logout-panel button {
+        height: 45px;
+        width: 40%;
+        margin: 25px 5px;
+        border: 1px solid var(--text-color);
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: var(--main-bg-color);
+        background-color: var(--text-color);
+        box-shadow: 0px 2px 14px var(--text-color);
+        transition: all ease 0.5s;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .logout-section .logout-panel.active {
+        width: 80%;
+        max-width: 515px;
+        font-size: 13px;
+    }
+
+    .logout-section .logout-panel button {
+        height: 45px;
+        width: 40%;
+        margin: 25px 5px;
+        border: 1px solid var(--text-color);
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: var(--main-bg-color);
+        background-color: var(--text-color);
+        box-shadow: 0px 2px 14px var(--text-color);
+        transition: all ease 0.5s;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .logout-section .logout-panel.active {
+        width: 80%;
+        max-width: 515px;
+        font-size: 18px;
+    }
+
+    .logout-section .logout-panel button {
+        height: 45px;
+        width: 40%;
+        margin: 25px 5px;
+        border: 1px solid var(--text-color);
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: var(--main-bg-color);
+        background-color: var(--text-color);
+        box-shadow: 0px 2px 14px var(--text-color);
+        transition: all ease 0.5s;
+    }
+}

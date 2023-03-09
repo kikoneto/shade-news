@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
 
+import { Header } from './components/Header/Header'
+import { NewsCatalog } from './components/NewsCatalog/NewsCatalog';
+import { Login } from './components/AuthenticationForms/Login/Login';
+import { Register } from './components/AuthenticationForms/Register/Register';
+import { Logout } from './components/AuthenticationForms/Logout/Logout';
+import { Create } from './components/NewsForms/Create/Create';
+import { Edit } from './components/NewsForms/Edit/Edit';
+import { MyProfile } from './components/MyProfile/MyProfile';
+import { NewsDetails } from './components/NewsDetails/NewsDetails';
+import { Footer } from './components/Footer/Footer';
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     return (
+          <div className='app'>
+               <Header />
+
+               <main>
+                    <NewsDetails />
+                    <NewsCatalog />
+                    <Create />
+                    <Edit />
+                    <MyProfile />
+                    <Login />
+                    <Register />
+                    <Logout />
+               </main>
+
+               <Footer />
+          </div>
+     );
 }
 
 export default App;

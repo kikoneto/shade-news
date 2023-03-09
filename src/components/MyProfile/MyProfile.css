@@ -1,0 +1,223 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 100px;
+    margin: 100px 0;
+    border-top: 10px solid var(--skin-color);
+    border-right: 20px solid var(--skin-color);
+    border-bottom: 10px solid var(--skin-color);
+    border-left: 20px solid var(--skin-color);
+    box-shadow: 0 0 5px var(--skin-color);
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.profile-content .avatar {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.profile-content .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: filter 0.5s ease 0s;
+    filter: brightness(0.8);
+    box-shadow: 0px 0px 12px black;
+}
+
+.profile-content .avatar:hover img {
+    filter: brightness(0.4);
+    cursor: pointer;
+}
+
+.profile-content .avatar p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    margin: 0 auto;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    transition: opacity 0.5s ease;
+}
+
+.profile-content .avatar.active p {
+    color: white;
+    opacity: 1;
+}
+
+.profile-content .my-profile-save {
+    width: 50px;
+    height: 20px;
+    background: white;
+    border: 2px solid var(--skin-color);
+    border-radius: 5px;
+}
+
+.profile-content .my-profile-save:hover {
+    cursor: pointer;
+    background: white;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.profile-box p {
+    color: var(--skin-color);
+}
+
+.profile-change {
+    width: 174px;
+    height: 30px;
+    border: 1px solid var(--skin-color);
+    background: white;
+    font-size: 1rem;
+    box-shadow: 0 0 3px var(--skin-color);
+    border-radius: 20px;
+    transition: all ease 0.2s;
+}
+
+.profile-change:hover {
+    font-size: 1.2rem;
+    color: var(--skin-color);
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.profile-changing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-changing input {
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.profile-changing.email input {
+    width: 170px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.profile-changing.gender select {
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.profile-changing button {
+    height: 30px;
+}
+
+.profile-changing i:hover {
+    font-size: 1.2rem;
+    color: var(--skin-color);
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+
+    /* My Profile */
+    .profile-container {
+        flex-direction: column;
+        gap: 40px;
+        margin: 0;
+        padding: 20px 70px;
+    }
+
+    .profile-box {
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 13px;
+        align-items: center;
+    }
+
+    .profile-content {
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* My Profile */
+    .profile-container {
+        flex-direction: column;
+        gap: 40px;
+        margin: 0;
+        padding: 20px 70px;
+    }
+
+    .profile-box {
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 13px;
+        align-items: center;
+    }
+
+    .profile-content {
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* My Profile */
+    .profile-container {
+        flex-direction: column;
+        gap: 40px;
+        margin: 0;
+        padding: 20px 70px;
+    }
+
+    .profile-box {
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 13px;
+        align-items: center;
+    }
+
+    .profile-content {
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    /* My Profile */
+    .profile-container {
+        padding: 29px 10px;
+    }
+}
