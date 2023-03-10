@@ -19,9 +19,7 @@
 }
 
 .logout-section .logout-panel h2 {
-    display: inline-block;
-    margin-top: 40px;
-    padding: 10px 40px;
+    padding: 27px 40px;
     color: var(--text-color);
 }
 

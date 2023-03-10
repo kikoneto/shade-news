@@ -2,10 +2,14 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 
 import { useContext, useState, useEffect } from 'react';
+
 import { AuthIntContext } from '../../contexts/userInteractionContext';
+import { AuthContext } from '../../contexts/authContext';
+
 
 export const Header = ({ setSkinColor }) => {
 
+    const { user } = useContext(AuthContext);
     const { currAuth, changeAuth } = useContext(AuthIntContext);
 
     useEffect(() => {
@@ -26,12 +30,26 @@ export const Header = ({ setSkinColor }) => {
         </ul>
     )
 
+    const resGuestNav = (
+        <ul className="nav guest-nav">
+            <li className="sign-in" onClick={() => changeAuth('login')} >Sign In</li>
+            <li className="sign-up" onClick={() => changeAuth('register')} >Sign Up</li>
+        </ul>
+    )
+
     const userNav = (
         <ul className="nav home-nav main-nav">
             <li className="my-profile"><Link to='/my-profile'>My Profile</Link></li>
             <li className="logout" onClick={() => changeAuth('logout')} >Logout</li>
         </ul>
     )
+
+    const resUserNav = (
+        <ul className="nav home-nav">
+            <li className="my-profile"><Link to='/my-profile'>My Profile</Link></li>
+            <li className="logout" onClick={() => changeAuth('logout')} >Logout</li>
+        </ul>
+    );
 
     return (
         <header>
@@ -43,7 +61,11 @@ export const Header = ({ setSkinColor }) => {
                     <li className="create"><Link to='/create'>Create</Link></li>
                 </ul>
 
-                {guestNav}
+                {
+                    user ?
+                        userNav
+                        : guestNav
+                }
 
                 <div className="color-switcher">
                     <div className="pink color" onClick={() => setSkinColor('#ca2e55')}></div>
@@ -64,14 +86,11 @@ export const Header = ({ setSkinColor }) => {
                     <li className="home"><Link to='/'>Home</Link></li>
                     <li className="create"><Link to='/create'>Create</Link></li>
                 </ul>
-                <ul className="nav guest-nav">
-                    <li className="sign-in" onClick={() => changeAuth('login')}>Sign In</li>
-                    <li className="sign-up" onClick={() => changeAuth('register')}>Sign Up</li>
-                </ul>
-                <ul className="nav home-nav">
-                    <li className="my-profile"><Link to='/my-profile'>My Profile</Link></li>
-                    <li className="logout" onClick={() => changeAuth('logout')}>Logout</li>
-                </ul>
+                {
+                    user ?
+                        resUserNav
+                        : resGuestNav
+                }
             </div>
         </header >
     );

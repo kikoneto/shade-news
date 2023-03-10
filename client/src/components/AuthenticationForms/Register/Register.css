@@ -41,14 +41,16 @@
 }
 
 .register-panel .register-form {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .register-panel .register-form input {
     display: inline-block;
     height: 55px;
     width: 350px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1rem;
     border: 1px solid var(--skin-color);
     border-radius: 4px 0 0 4px;
@@ -60,6 +62,16 @@
 
 .register-panel .register-form input:focus {
     border: 2px solid var(--skin-color);
+}
+
+.register-panel .register-form select {
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: var(--text-color);
+    border-radius: 10px;
+    border-color: 1px solid var(--skin-color);
 }
 
 .register-panel .register-form input[type="submit"] {
@@ -149,7 +161,8 @@
         padding-top: 0;
     }
 
-    .register-panel .register-form input {
+    .register-panel .register-form input,
+    .register-panel .register-form select {
         height: 30px;
         width: 80%;
         margin-top: 13px;
@@ -175,6 +188,10 @@
         font-weight: 500;
         font-size: 15px;
         transition: all ease 0.5s;
+    }
+
+    .register-panel .register-form input[type="submit"]:hover {
+        font-size: 17px;
     }
 }
 
@@ -203,7 +220,8 @@
     }
 
 
-    .register-panel .register-form input {
+    .register-panel .register-form input,
+    .register-panel .register-form select {
         height: 30px;
         width: 80%;
         margin-top: 13px;
@@ -230,6 +248,10 @@
         font-size: 15px;
         transition: all ease 0.5s;
     }
+
+    .register-panel .register-form input[type="submit"]:hover {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -252,10 +274,12 @@
     }
 
     .register-panel h1 {
+        padding-top: 0px;
         font-size: 20px;
     }
 
-    .register-panel .register-form input {
+    .register-panel .register-form input,
+    .register-panel .register-form select {
         height: 30px;
         width: 80%;
         margin-top: 13px;
@@ -281,6 +305,10 @@
         font-weight: 500;
         font-size: 18px;
         transition: all ease 0.5s;
+    }
+
+    .register-panel .register-form input[type="submit"]:hover {
+        font-size: 20px;
     }
 }
 
@@ -308,8 +336,9 @@
         padding-top: 0;
     }
 
-    .register-panel .register-form input {
-        height: 45px;
+    .register-panel .register-form input,
+    .register-panel .register-form select {
+        height: 40px;
         width: 80%;
         margin-top: 10px;
         font-size: 20px;
@@ -333,5 +362,9 @@
         font-weight: 500;
         font-size: 18px;
         transition: all ease 0.5s;
+    }
+
+    .register-panel .register-form input[type="submit"]:hover {
+        font-size: 20px;
     }
 }

@@ -1,7 +1,10 @@
 import './App.css';
 
 import { Route, Routes } from 'react-router-dom';
+
+import { useLocalStorage } from './hooks/useLocalStorage';
 import { AuthIntProvider } from './contexts/userInteractionContext';
+import { AuthProvider } from './contexts/authContext';
 
 import { Header } from './components/Header/Header'
 import { NewsCatalog } from './components/NewsCatalog/NewsCatalog';
@@ -18,7 +21,7 @@ import { useState } from 'react';
 
 function App() {
 
-     const [skinColor, setSkinColor] = useState('#ca2e55');
+     const [skinColor, setSkinColor] = useLocalStorage('color', '#ca2e55');
 
      const changeSkinColor = (color) => {
           setSkinColor(color);
@@ -27,22 +30,24 @@ function App() {
      return (
           <div className='app' style={{ '--skin-color': skinColor }}>
 
-               <AuthIntProvider>
-                    <Header setSkinColor={changeSkinColor} />
-                    <Login />
-                    <Register />
-                    <Logout />
-               </AuthIntProvider>
+               <AuthProvider>
+                    <AuthIntProvider>
+                         <Header setSkinColor={changeSkinColor} />
+                         <Login />
+                         <Register />
+                         <Logout />
+                    </AuthIntProvider>
 
-               <main>
-                    <Routes>
-                         <Route path='/' element={<NewsCatalog />} />
-                         <Route path='/details' element={<NewsDetails />} />
-                         <Route path='/create' element={<Create />} />
-                         <Route path='/edit/*' element={<Edit />} />
-                         <Route path='/my-profile' element={<MyProfile />} />
-                    </Routes>
-               </main>
+                    <main>
+                         <Routes>
+                              <Route path='/' element={<NewsCatalog />} />
+                              <Route path='/details' element={<NewsDetails />} />
+                              <Route path='/create' element={<Create />} />
+                              <Route path='/edit/*' element={<Edit />} />
+                              <Route path='/my-profile' element={<MyProfile />} />
+                         </Routes>
+                    </main>
+               </AuthProvider>
 
                <Footer />
           </div>

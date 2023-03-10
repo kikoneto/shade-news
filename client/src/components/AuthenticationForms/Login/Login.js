@@ -1,11 +1,14 @@
 import './Login.css';
 
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { AuthIntContext } from '../../../contexts/userInteractionContext';
+import { AuthContext } from '../../../contexts/authContext';
 
 export const Login = () => {
 
     const { changeAuth, currAuth } = useContext(AuthIntContext)
+    const { onLogin } = useContext(AuthContext);
+
     const [remembered, setRemembered] = useState(false);
 
     const removeLogin = () => {
@@ -25,7 +28,22 @@ export const Login = () => {
         }
     }
 
+    const loginHandler = (e) => {
+        e.preventDefault();
 
+        let form = new FormData(e.currentTarget);
+
+        let email = form.get('email');
+        let password = form.get('password');
+
+        if (email && password) {
+            onLogin({ email, password });
+            changeAuth('');
+
+        } else {
+            alert('Empty Fields!')
+        }
+    }
 
     return (
         <section className={currAuth === 'login' ? 'login-section dark' : 'login-section '}>
@@ -33,9 +51,9 @@ export const Login = () => {
                 <div className={currAuth === 'login' ? 'login-panel active' : 'login-panel '}>
                     <i className="fa-solid fa-arrow-left" onClick={removeLogin}></i>
                     <h1>Sign In</h1>
-                    <form className="login-form">
-                        <input type="text" placeholder="Username" />
-                        <input type="password" placeholder="Password" />
+                    <form className="login-form" onSubmit={loginHandler}>
+                        <input type="text" name='email' placeholder="Email" />
+                        <input type="password" name='password' placeholder="Password" />
                         <input type="submit" value="Sign in" />
                     </form>
                     <div className="login-additional">
@@ -48,13 +66,13 @@ export const Login = () => {
 
                             <div className="sign-later">
                                 <p>New to Shade<span>News</span>?</p>
-                                <a href="" onClick={redirectToRegister}>Sign Up Now.</a>
+                                <a onClick={redirectToRegister}>Sign Up Now.</a>
                             </div>
 
                         </div>
 
                         <div className="help-container">
-                            <a href="#help">Need Help?</a>
+                            <a>Need Help?</a>
                         </div>
 
                     </div>
