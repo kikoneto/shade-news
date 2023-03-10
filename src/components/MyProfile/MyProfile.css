@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-.profile-content .avatar p {
+.profile-content .avatar .avatar-change {
     position: absolute;
     top: 40%;
     left: 25%;
@@ -49,7 +49,7 @@
     transition: opacity 0.5s ease;
 }
 
-.profile-content .avatar.active p {
+.profile-content .avatar:hover .avatar-change {
     color: white;
     opacity: 1;
 }

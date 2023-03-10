@@ -1,15 +1,22 @@
 import './NewsDetails.css';
 
 export const NewsDetails = () => {
+
+    let isOwner = false;
+
     return (
         <section className="news-details">
             <div className="news-details-container">
                 <div className="details-header">
                     <h1 className="details-title">Tony Stark Got Pregnant</h1>
-                    <div className="details-owner-options">
-                        <i className="fa-solid fa-pen"></i>
-                        <i className="fa-solid fa-x"></i>
-                    </div>
+                    {
+                        isOwner ?
+                            <div className="details-owner-options">
+                                <i className="fa-solid fa-pen"></i>
+                                <i className="fa-solid fa-x"></i>
+                            </div>
+                            : null
+                    }
                 </div>
 
                 <div className="details">
@@ -45,9 +52,13 @@ export const NewsDetails = () => {
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At repellendus reprehenderit ex
                                 facere, quisquam delectus repudiandae neque maxime rem eius.</p>
                         </div>
-                        <div className="details-owner-options">
-                            <i className="fa-solid fa-x"></i>
-                        </div>
+                        {
+                            isOwner ?
+                                <div className="details-owner-options">
+                                    <i className="fa-solid fa-x"></i>
+                                </div>
+                                : null
+                        }
                     </div>
                     <div className="comment-box">
                         <img src="/images/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg" />
@@ -56,9 +67,13 @@ export const NewsDetails = () => {
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At repellendus reprehenderit ex
                                 facere, quisquam delectus repudiandae neque maxime rem eius.</p>
                         </div>
-                        <div className="details-owner-options">
-                            <i className="fa-solid fa-x"></i>
-                        </div>
+                        {
+                            isOwner ?
+                                <div className="details-owner-options">
+                                    <i className="fa-solid fa-x"></i>
+                                </div>
+                                : null
+                        }
                     </div>
                     <div className="comment-box">
                         <img src="/images/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg" />
@@ -67,9 +82,13 @@ export const NewsDetails = () => {
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At repellendus reprehenderit ex
                                 facere, quisquam delectus repudiandae neque maxime rem eius.</p>
                         </div>
-                        <div className="details-owner-options">
-                            <i className="fa-solid fa-x"></i>
-                        </div>
+                        {
+                            isOwner ?
+                                <div className="details-owner-options">
+                                    <i className="fa-solid fa-x"></i>
+                                </div>
+                                : null
+                        }
                     </div>
                 </div>
             </div>

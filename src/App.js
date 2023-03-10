@@ -19,7 +19,7 @@ import { useState } from 'react';
 function App() {
 
      const [skinColor, setSkinColor] = useState('#ca2e55');
-     
+
      const changeSkinColor = (color) => {
           setSkinColor(color);
      }
@@ -37,6 +37,7 @@ function App() {
                <main>
                     <Routes>
                          <Route path='/' element={<NewsCatalog />} />
+                         <Route path='/details' element={<NewsDetails />} />
                          <Route path='/create' element={<Create />} />
                          <Route path='/edit/*' element={<Edit />} />
                          <Route path='/my-profile' element={<MyProfile />} />
