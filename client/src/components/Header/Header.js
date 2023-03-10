@@ -1,16 +1,16 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
 
-import { useContext, useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
-import { AuthIntContext } from '../../contexts/userInteractionContext';
-import { AuthContext } from '../../contexts/authContext';
+import { useAuthInt } from '../../contexts/userInteractionContext';
+import { useAuth } from '../../contexts/authContext';
 
 
 export const Header = ({ setSkinColor }) => {
 
-    const { user } = useContext(AuthContext);
-    const { currAuth, changeAuth } = useContext(AuthIntContext);
+    const { user } = useAuth();
+    const { currAuth, changeAuth } = useAuthInt();
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);

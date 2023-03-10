@@ -34,7 +34,7 @@
 }
 
 .profile-content .avatar:hover img {
-    filter: brightness(0.4);
+    filter: brightness(0.1);
     cursor: pointer;
 }
 

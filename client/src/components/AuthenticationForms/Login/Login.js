@@ -1,13 +1,13 @@
 import './Login.css';
 
-import { useContext, useEffect, useState } from 'react';
-import { AuthIntContext } from '../../../contexts/userInteractionContext';
-import { AuthContext } from '../../../contexts/authContext';
+import { useState } from 'react';
+import { useAuthInt } from '../../../contexts/userInteractionContext';
+import { useAuth } from '../../../contexts/authContext';
 
 export const Login = () => {
 
-    const { changeAuth, currAuth } = useContext(AuthIntContext)
-    const { onLogin } = useContext(AuthContext);
+    const { changeAuth, currAuth } = useAuthInt();
+    const { onLogin } = useAuth();
 
     const [remembered, setRemembered] = useState(false);
 

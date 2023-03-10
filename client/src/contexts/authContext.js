@@ -1,10 +1,14 @@
-import { createContext } from "react";
+import { useNavigate } from 'react-router-dom';
+
+import { createContext, useContext } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { login, register } from "../services/authService";
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
+
+    const navigate = useNavigate();
 
     const initialState = {
         _id: '',
@@ -16,7 +20,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     const [user, setUser] = useLocalStorage('auth', { ...initialState });
-    
+
 
     const onLogin = (authData) => {
         login(authData)
@@ -32,6 +36,9 @@ export const AuthProvider = ({ children }) => {
                 }
 
                 setUser(user);
+
+                navigate('/');
+
             })
             .catch(err => {
                 alert(err);
@@ -51,6 +58,8 @@ export const AuthProvider = ({ children }) => {
                     _id: res._id
                 }
                 setUser(user)
+
+                navigate('/');
             })
             .catch(err => {
                 alert(err);
@@ -59,12 +68,18 @@ export const AuthProvider = ({ children }) => {
 
     const onLogout = () => {
         setUser(null);
+        navigate('/');
     }
-
 
     return (
         <AuthContext.Provider value={{ onLogin, user, onLogout, onRegister }}>
             {children}
         </AuthContext.Provider>
     );
+}
+
+export const useAuth = () => {
+    const authContent = useContext(AuthContext);
+
+    return authContent;
 }

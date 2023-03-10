@@ -1,14 +1,12 @@
 import './Register.css';
 
-import { useContext } from 'react';
-
-import { AuthIntContext } from '../../../contexts/userInteractionContext';
-import { AuthContext } from '../../../contexts/authContext';
+import { useAuthInt } from '../../../contexts/userInteractionContext';
+import { useAuth } from '../../../contexts/authContext';
 
 export const Register = () => {
 
-    const { changeAuth, currAuth } = useContext(AuthIntContext)
-    const { onRegister } = useContext(AuthContext)
+    const { changeAuth, currAuth } = useAuthInt();
+    const { onRegister } = useAuth();
 
     const removeRegister = () => {
         changeAuth('');
@@ -29,7 +27,7 @@ export const Register = () => {
         let password = form.get('password');
         let rePassword = form.get('re-password');
         let gender = form.get('gender');
-        let avatarUrl = form.get('gender');
+        let avatarUrl = 'https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1';
 
 
         let user = {

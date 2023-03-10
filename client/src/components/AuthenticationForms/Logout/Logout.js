@@ -1,13 +1,12 @@
 import './Logout.css';
 
-import { useContext } from 'react';
-import { AuthIntContext } from '../../../contexts/userInteractionContext';
-import { AuthContext } from '../../../contexts/authContext';
+import { useAuthInt } from '../../../contexts/userInteractionContext';
+import { useAuth } from '../../../contexts/authContext';
 
 export const Logout = () => {
 
-    const { onLogout } = useContext(AuthContext);
-    const { changeAuth, currAuth } = useContext(AuthIntContext)
+    const { onLogout } = useAuth();
+    const { changeAuth, currAuth } = useAuthInt();
 
     const removeLogout = () => {
         changeAuth('');
