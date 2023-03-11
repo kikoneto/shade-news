@@ -1,0 +1,90 @@
+.new-box {
+    width: 375px;
+    height: 350px;
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    text-align: center;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.new-box h1 {
+    font-size: 20px;
+}
+
+.new-box p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    white-space: pre-wrap;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.new-box img {
+    width: 313px;
+    height: 160px;
+}
+
+.new-box:hover {
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.new-box:hover p {
+    display: block;
+}
+
+@media only screen and (max-width: 576px) {
+    .new-box {
+        padding: 15px 3px;
+        height: 310px;
+    }
+
+    .new-box h1 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .new-box {
+        padding: 15px 3px;
+        height: 330px;
+    }
+
+    .new-box h1 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .new-box {
+        padding: 15px 3px;
+        height: 350px;
+    }
+
+    .new-box h1 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .new-box {
+        padding: 15px 3px;
+        height: 380px;
+    }
+
+    .new-box h1 {
+        font-size: 21px;
+    }
+}

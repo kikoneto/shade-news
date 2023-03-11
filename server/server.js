@@ -1324,7 +1324,8 @@
                 email: "peter@abv.bg",
                 username: "Peter",
                 hashedPassword: "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1",
-                imageUrl: 'someImg',
+                avatarUrl: 'https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1',
+                gender: 'Male',
             },
             "847ec027-f659-4086-8032-5173e2f9c93a": {
                 email: "george@abv.bg",
@@ -1351,7 +1352,27 @@
                 "full_article": "Netflix Inc. has acquired the rights to stream Johnny Depp’s next film in France, a deal that will help fund the actor’s first feature role following his defamation trial against ex-wife Amber Heard, and what he claimed was a wider boycott by Hollywood studios. The entertainment giant has licensed the rights to stream the film in the country 15 months after its release in theaters, according to people familiar with the matter who asked not to be identified because the terms haven’t been announced publicly. The company does not have the rights for the film outside of France.",
                 "short_article": "Netflix Inc. has acquired the rights to stream Johnny Depp’s next film in France, a deal that will help fund the actor’s first feature...",
                 "title": "Netflix to Stream Johnny Depp’s Return to Film in France",
-                "_id": "d8ba9e5d-685e-4aec-97a1-0b06d345aa6b"
+                "_id": "d8ba9e5d-685e-4aec-97a1-0b06d345aa6b",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "d990d20f-4e46-4f92-bd4a-6ff76d35f9a7": {
                 "imageUrl": "https://cdn.mos.cms.futurecdn.net/N5KfU7J79k967sX2RxhwGV-1024-80.jpg.webp",
@@ -1362,7 +1383,27 @@
                 "full_article": "The James Webb Space Telescope will soon turn its eyes to the solar system's king, the gas giant Jupiter. Jupiter is a complex system full of mysteries, hosting realms of questions concerning the nature of its delicate rings, how its largest moons may harbor oceans of water or hidden volcanoes, and how massive storms like the Great Red Spot form in the giant planet's turbulent atmosphere. The planet will be the perfect proving ground, researchers say, for the James Webb Space Telescope, the $10 billion observatory that will showcase its first operational images on July 12 .",
                 "short_article": "The James Webb Space Telescope will soon turn its eyes to the solar system's king, the gas giant Jupiter. Jupiter is a complex system full...",
                 "title": "Jupiter and its moons will be a 'proving ground' for the James Webb Space Telescope",
-                "_id": "d990d20f-4e46-4f92-bd4a-6ff76d35f9a7"
+                "_id": "d990d20f-4e46-4f92-bd4a-6ff76d35f9a7",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "c3cf3a15-9672-4343-a491-0d9c5b361dc6": {
                 "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2022/07/kim-kardashian-north-west-73.jpg?quality=75&strip=all&w=2000",
@@ -1373,7 +1414,27 @@
                 "full_article": "Kim Kardashian’s daughter North asked photographers to stop taking pictures of her during the Jean Paul Gaultier Haute Couture Fall/Winter 2022/2023 show Wednesday. The 9-year-old scribbled her demand on the Paris Fashion Week event’s invitation, Kardashian revealed via Instagram the following day. For anyone who knows North knows how funny she finds the last slide! the Keeping Up With the Kardashians alum, 41, wrote Thursday.",
                 "short_article": "Kim Kardashian’s daughter North asked photographers to stop taking pictures of her during the Jean Paul Gaultier Haute Couture Fall/Winter...",
                 "title": "Kim Kardashian explains why North held ‘Stop’ sign at Paris Fashion Week show",
-                "_id": "c3cf3a15-9672-4343-a491-0d9c5b361dc6"
+                "_id": "c3cf3a15-9672-4343-a491-0d9c5b361dc6",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "f63d8b45-1ed4-4a93-b723-736dc11f62b4": {
                 "imageUrl": "https://cdn.cnn.com/cnnnext/dam/assets/220708113822-01-sepp-blatter-michel-platini-exlarge-169.jpg",
@@ -1384,7 +1445,27 @@
                 "full_article": "As Blatter walked into the courtroom to hear the verdict, he told reporters: I am not innocent in my life, but in this case, I am innocent. During the trial in June, Blatter claimed the payment to Platini was a paying of salary owed to the Frenchman for some consultancy work done with FIFA between 1998 and 2002. It's a salary that was due. I don't know why we are in a criminal hearing for an administrative procedure, said Blatter. Platini told me, I'm worth a million and I told him, so you'll be with me for a million -- gentlemen's agreement, the 86-year-old continued. Platini.",
                 "short_article": "As Blatter walked into the courtroom to hear the verdict, he told reporters: I am not innocent in my life, but in this case, I am innocent...",
                 "title": "Sepp Blatter and Michel Platini acquitted of fraud in Swiss Court",
-                "_id": "f63d8b45-1ed4-4a93-b723-736dc11f62b4"
+                "_id": "f63d8b45-1ed4-4a93-b723-736dc11f62b4",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "244ffccd-d183-41d0-b1c4-f9a6e4974917": {
                 "imageUrl": "https://scitechdaily.com/images/NASAs-OSIRIS-REx-Spacecraft-Surface-of-Asteroid-Bennu-777x437.jpg?ezimgfmt=ng:webp/ngcb1",
@@ -1395,7 +1476,27 @@
                 "full_article": "Scientists have learned something astonishing after analyzing data gathered when NASA’s OSIRIS-REx spacecraft collected a sample from asteroid Bennu in October 2020. The spacecraft would have sunk into the asteroid had it not fired its thrusters to back away immediately after it grabbed its sample of dust and rock from Bennu’s surface. Unexpectedly, it turns out that the particles making up Bennu’s exterior are so loosely packed and lightly bound to each other that if a person were to step onto the asteroid they would feel very little resistance.",
                 "short_article": "Scientists have learned something astonishing after analyzing data gathered when NASA’s OSIRIS-REx spacecraft collected a sample from asteroid Bennu in October 2020...",
                 "title": "Surprise – Again! NASA Spacecraft Reveals Asteroid Bennu Is Not What It Seemed",
-                "_id": "244ffccd-d183-41d0-b1c4-f9a6e4974917"
+                "_id": "244ffccd-d183-41d0-b1c4-f9a6e4974917",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "a149cc5c-394f-4e07-8d56-4baac1b8e041": {
                 "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TICENEH6KII6ZM45OEYJC2ABJM.jpg&w=916",
@@ -1406,7 +1507,27 @@
                 "full_article": "MONTERREY, Mexico — Not long after a 5-0 victory over Jamaica on Thursday, the U.S. women’s national soccer team returned to its hotel for a reunion and, before long, a low-key celebration. As the Americans entered their upscale digs, Megan Rapinoe was waiting for them. Excused from the Concacaf W Championship game, the star forward had chartered back from Washington after receiving the Presidential Medal of Freedom at the White House. She greeted her 22 teammates with hugs. The players and staff then watched Haiti rout Mexico, 3-0 — a result.",
                 "short_article": "MONTERREY, Mexico — Not long after a 5-0 victory over Jamaica on Thursday, the U.S. women’s national soccer team returned to its hotel for a reunion and, before...",
                 "title": "USWNT makes quick work of Jamaica, earns World Cup berth",
-                "_id": "a149cc5c-394f-4e07-8d56-4baac1b8e041"
+                "_id": "a149cc5c-394f-4e07-8d56-4baac1b8e041",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "18f0a73c-b3c5-4336-af9f-8a5a1b3ae0c4": {
                 "imageUrl": "https://deadline.com/wp-content/uploads/2021/04/2019_MathieuBittonL1070039_HR_R.jpg?crop=0px%2C0px%2C6000px%2C3363px&resize=681%2C383",
@@ -1417,7 +1538,27 @@
                 "full_article": "It’s not a new comedy special. But Netflix continues to ride the Dave Chappelle train, quietly releasing What’s In A Name, a chronicle of a speech Chappelle gave in June at a naming ceremony at Washington D.C.’s Duke Ellington School of the Arts. Chappelle wasn’t warmly received, and faced some angry students. The appearance was going to be for a theater that was to be named for Chappelle in consideration of his support of the school, especially after he and his friends were the group that raised the most money for the building.",
                 "short_article": "It’s not a new comedy special. But Netflix continues to ride the Dave Chappelle train, quietly releasing What’s In A Name, a chronicle of a speech Chappelle gave in June at a naming ceremony...",
                 "title": "Dave Chappelle’s ‘What’s In A Name’ Quietly Drops On Netflix, Taken From School Speech",
-                "_id": "18f0a73c-b3c5-4336-af9f-8a5a1b3ae0c4"
+                "_id": "18f0a73c-b3c5-4336-af9f-8a5a1b3ae0c4",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "83f82a0e-05e9-485f-b062-b2e0a04b80ba": {
                 "imageUrl": "https://cdn.cnn.com/cnnnext/dam/assets/220403180951-11-doja-cat-grammy-awards-2022-exlarge-169.jpg",
@@ -1428,7 +1569,27 @@
                 "full_article": "The singer called out the Stranger Things actor for sharing her direct messages about his co-star, Joseph Quinn. Schnapp shared screen shots of their private conversation in a now-deleted TikTok earlier this week. In the messages, Doja had written to Schnapp, Noah can u tell Joseph to hmu [hit me up]. wait no. does he have a gf (girlfriend)?LMAOO slide into his dms, Schnapp wrote back, but the rapper said she couldn't find Quinn's account. Doja Cat expressed feeling betrayed when speaking live about the iincident Thursday on Instagram.",
                 "short_article": "The singer called out the Stranger Things actor for sharing her direct messages about his co-star, Joseph Quinn. Schnapp shared screen shots of their private conversation in a now...",
                 "title": "Doja Cat calls out Noah Schnapp for sharing her DMs about 'Stranger Things' crush",
-                "_id": "83f82a0e-05e9-485f-b062-b2e0a04b80ba"
+                "_id": "83f82a0e-05e9-485f-b062-b2e0a04b80ba",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "87df6019-3efd-4781-83af-f6b60f86e271": {
                 "imageUrl": "https://cdn.vox-cdn.com/thumbor/XFYQAZ7LWUVIpcSTv-1RSHgI_7Q=/0x0:818x545/920x613/filters:focal(397x204:527x334):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/71067722/Mead_Paddington.0.jpg",
@@ -1439,7 +1600,27 @@
                 "full_article": "Sony is removing access to hundreds of movies and TV shows on its PlayStation Store service next month, meaning users that previously paid for titles such as Paddington and The Hunger Games will no longer be able to watch them. The shutdown affects users in Germany and Austria, according to legal notices posted on the two regional sites, and covers films produced by StudioCanal. The shutdown will come into force on August 31st, exactly one year after Sony discontinued movie and TV show purchases through its digital store. ",
                 "short_article": "Sony is removing access to hundreds of movies and TV shows on its PlayStation Store service next month, meaning users that previously paid for titles such as Paddington and...",
                 "title": "PlayStation Store removes purchased movies from libraries after service shutdown",
-                "_id": "87df6019-3efd-4781-83af-f6b60f86e271"
+                "_id": "87df6019-3efd-4781-83af-f6b60f86e271",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "1d3a1daa-0eaf-4992-b467-3e8c4307ae53": {
                 "imageUrl": "https://www.sciencealert.com/images/2022-07/processed/VitaminDCapsuleBeingHeld_1024.jpeg",
@@ -1450,7 +1631,27 @@
                 "full_article": "Doctors have issued a warning that not only is it entirely possible to overdose on vitamin D, it's also incredibly dangerous, after a man in the UK was hospitalized as a result of taking almost 400 times the daily recommended vitamin D. While studies have hinted at the benefits of healthy levels of vitamin D throughout the pandemic, the reality is that 'hypervitaminosis D', or vitamin D intoxication, is on the rise. And it's not something to be taken lightly. Globally, there is a growing trend of hypervitaminosis D. ",
                 "short_article": "Doctors have issued a warning that not only is it entirely possible to overdose on vitamin D, it's also incredibly dangerous, after a man in the UK was hospitalized as...",
                 "title": "Man Vomits For Months After Taking Vitamin D at Almost 400x Daily Recommended Dose",
-                "_id": "1d3a1daa-0eaf-4992-b467-3e8c4307ae53"
+                "_id": "1d3a1daa-0eaf-4992-b467-3e8c4307ae53",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "0aec1042-9218-4fe4-b258-89df3de291f3": {
                 "imageUrl": "https://sportshub.cbsistatic.com/i/r/2022/07/07/6576d403-79c2-40d2-b497-64469ef6def8/thumbnail/770x433/842828cc79e63327d5bae5053808373f/edwards-durant-getty.png",
@@ -1461,7 +1662,27 @@
                 "full_article": "The Brooklyn Nets are saying they're prepared to go into training camp with Kevin Durant. But they don't want that. It will be a mess. It will be James Harden in Houston, and then Brooklyn, all over again. Ben Simmons in Philly. Paul George in Indiana. Anthony Davis in New Orleans. Kawhi Leonard in San Antonio. Kyrie Irving in Cleveland. When a player asks out in today's era, they have an almost 100 percent success rate in getting their way, and usually rather promptly. The reason, of course, the Nets.",
                 "short_article": "The Brooklyn Nets are saying they're prepared to go into training camp with Kevin Durant. But they don't want that. It will be a mess. It will be James Harden...",
                 "title": "NBA rumors: Nets asked Wolves for huge Kevin Durant trade haul, including Anthony Edwards, Karl-Anthony Towns",
-                "_id": "0aec1042-9218-4fe4-b258-89df3de291f3"
+                "_id": "0aec1042-9218-4fe4-b258-89df3de291f3",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "fa441de7-86bd-4c55-9e2d-35062c528542": {
                 "imageUrl": "https://images.macrumors.com/t/Zqu4vYCPWMYm1UpjPRwC2xt03uk=/800x0/article-new/2022/07/M1-MBA-vs-M2.jpg?lossy",
@@ -1472,7 +1693,27 @@
                 "full_article": "The ‌MacBook Air‌ is often chosen by those who require a portable, more affordable Apple laptop, with the device offering a lightweight design at a price well below the high-end MacBook Pro models. The ‌M2‌ ‌MacBook Air‌ joins the Mac lineup at a $1,199 price point – with the previous M1 model remaining on sale for the same $999 price tag that it debuted with in November 2020. Whether you are weighing up the upgrade from the ‌M1‌ ‌MacBook Air‌ to the ‌M2‌ ‌MacBook Air‌, or are in the market for a new ‌MacBook Air.",
                 "short_article": "The ‌MacBook Air‌ is often chosen by those who require a portable, more affordable Apple laptop, with the device offering a lightweight design at a price...",
                 "title": "M1 vs. M2 MacBook Air Buyer's Guide: Is It Worth Upgrading?",
-                "_id": "fa441de7-86bd-4c55-9e2d-35062c528542"
+                "_id": "fa441de7-86bd-4c55-9e2d-35062c528542",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
             "cb8d89dd-babe-457a-9c12-c638b9a63ff8": {
                 "imageUrl": "https://reports.mortgagenewsdaily.com/image/article/62c737d2c26a5b2aa0350757",
@@ -1483,9 +1724,29 @@
                 "full_article": "In other words, whether we're looking at today's rates versus yesterday, the end of last week, or simply on a week-over-week basis, they're HIGHER.  Whose rates?  Pretty much every lenders'.  I don't see any exceptions to the above across the scores of rate sheets I review every day to generate the MND rate index.  Those rate sheets cover 95% of the market, conservatively.  More importantly, as long as you understand that mortgage rates are primarily based on the value of mortgage-backed securities in the secondary market, this is just simple math.",
                 "short_article": "In other words, whether we're looking at today's rates versus yesterday, the end of last week, or simply on a week-over-week basis, they're HIGHER.",
                 "title": "No, Mortgage Rates Are NOT LOWER Today!",
-                "_id": "cb8d89dd-babe-457a-9c12-c638b9a63ff8"
+                "_id": "cb8d89dd-babe-457a-9c12-c638b9a63ff8",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
-            "d62f5444-c82f-4d3c-b00c-f3e6b5d4dfa5": {
+            "d62f5444-c82f-4d3c-b00c-f3e6b5d4df1a5": {
                 "imageUrl": "https://i.guim.co.uk/img/media/a1c206b3756ac566d69b7c0094769b3886a8eec7/0_164_4909_2946/master/4909.jpg?width=620&quality=45&fit=max&dpr=2&s=fd9b08bb8ecd6c4ac589415bb39c88d6",
                 "topic": "Health",
                 "avatarUrl": "https://robohash.org/eummaioresdoloribus.png?size=50x50&set=set1",
@@ -1494,9 +1755,29 @@
                 "full_article": "The BA.5 version of Covid-19 has become the majority variant of the virus in America in a matter of weeks, in a troubling development that comes amid what may already be America’s second-largest wave of the pandemic. It also comes at a time when much of the US has relaxed nearly all Covid restrictions in public and life has largely returned to normal. Covid-19 is very clearly not over. We’re seeing dramatic increases in the number of cases and hospitalizations in many places throughout the United States, said Jason Salemi.",
                 "short_article": "The BA.5 version of Covid-19 has become the majority variant of the virus in America in a matter of weeks, in a troubling development that comes amid what...",
                 "title": "Headed in a bad direction’: Omicron variant may bring second-largest US Covid wave",
-                "_id": "d62f5444-c82f-4d3c-b00c-f3e6b5d4dfa5"
+                "_id": "d62f5444-c82f-4d3c-b00c-f3e6b5d4dfa5",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
-            "ea4e1d55-af29-4864-8a94-08f4b08b97a6": {
+            "ea4e1d55-af29-4864-8a94-08f4b08b927a6": {
                 "imageUrl": "https://digiday.com/wp-content/uploads/sites/3/2022/02/social-platforms-money.png?resize=1030,579",
                 "topic": "Marketing",
                 "avatarUrl": "https://robohash.org/beataeadsunt.png?size=50x50&set=set1",
@@ -1505,9 +1786,29 @@
                 "full_article": "The financial details of the deal were not publicly disclosed, but it’s worth noting that while Goodway Group is making the purchase, its own consultancy arm Control vs. Exposed will absorb Canton. Rob Webster and Nick King, Canton’s co-founders, will now serve as global vice presidents of strategy and commercial respectively and will report to Paul Frampton-Calero, the U.K.-based president of CvE who said the combined headcount of the two will exceed 40. Founded in 2018, Canton has worked with brands including Nokia, gaming giant Paddy Power.",
                 "short_article": "The financial details of the deal were not publicly disclosed, but it’s worth noting that while Goodway Group is making the purchase, its own consultancy arm Control vs.",
                 "title": "The Rundown: Goodway Group buys Canton Marketing Solutions, a sign of necessary agency evolution",
-                "_id": "ea4e1d55-af29-4864-8a94-08f4b08b97a6"
+                "_id": "ea4e1d55-af29-4864-8a94-08f4b08b97a6",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
-            "4ef4cf24-a804-4dcd-bbc7-c8b499be3030": {
+            "4ef4cf24-a804-4dcd-bbc7-c8b499b4e3030": {
                 "imageUrl": "https://image.cnbcfm.com/api/v1/image/107085815-1657218583226-gettyimages-151887475-NEW_WAL-MART_STORE.jpeg?v=1657218725&w=740&h=416",
                 "topic": "Business",
                 "avatarUrl": "https://robohash.org/quiquisut.png?size=50x50&set=set1",
@@ -1516,9 +1817,29 @@
                 "full_article": "The abundance of inventory and promotions creates a unique backdrop for this year’s Amazon Prime Day. The sales event will take place Tuesday and Wednesday. Since its debut in 2015, it has become a shopping holiday that has lifted sales not only for Amazon, but nearly every online retailer. It also tees up a more challenging period for the retail industry. Inflation has cut into Americans’ budgets, leaving fewer dollars for discretionary spending. Heavy promotions by some retailers pressure others to cut prices, too. And after a pandemic period marked by fewer discounts and higher profits.",
                 "short_article": "The abundance of inventory and promotions creates a unique backdrop for this year’s Amazon Prime Day. The sales event will take place Tuesday and Wednesday. Since its debut in 2015",
                 "title": "Walmart won’t hold rival event to Amazon Prime Day, as it is already offering big markdowns",
-                "_id": "4ef4cf24-a804-4dcd-bbc7-c8b499be3030"
+                "_id": "4ef4cf24-a804-4dcd-bbc7-c8b499be3030",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
-            "41335069-a0f1-4ca1-9127-730ffcf194ea": {
+            "41335069-a0f1-4ca1-9127-730ffcf3194ea": {
                 "imageUrl": "https://storage.googleapis.com/afs-prod/media/b210175b27d7424fbcf47789e183c55e/1000.jpeg",
                 "topic": "Business",
                 "avatarUrl": "https://robohash.org/excepturiimpeditminus.png?size=50x50&set=set1",
@@ -1527,9 +1848,29 @@
                 "full_article": "SAN JOSE, Calif. (AP) — A jury on Thursday convicted former Theranos executive Ramesh Sunny Balwani of collaborating with disgraced Theranos CEO Elizabeth Holmes in a massive fraud involving the blood-testing company that once enthralled Silicon Valley. The 12 jurors found Balwani guilty on all 12 felony counts of defrauding both Theranos investors and the patients who relied on wildly unreliable blood tests that could have jeopardized their health. Balwani sat impassively as the verdicts were read in a San Jose, California, court, blinking frequently but rarely looking at the seven women and five men who convicted him.",
                 "short_article": "SAN JOSE, Calif. (AP) — A jury on Thursday convicted former Theranos executive Ramesh Sunny Balwani of collaborating with disgraced Theranos CEO Elizabeth Holmes in a massive fraud involving...",
                 "title": "Former Theranos exec Ramesh Balwani convicted of fraud",
-                "_id": "41335069-a0f1-4ca1-9127-730ffcf194ea"
+                "_id": "41335069-a0f1-4ca1-9127-730ffcf194ea",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
-            "013eabc7-4b2c-4300-b81b-f584859dfa33": {
+            "013eabc7-4b2c-4300-b81b-f5848591dfa33": {
                 "imageUrl": "https://www.iaea.org/sites/default/files/styles/width_555px_6_units_16_9/public/2022-06-09newcrpaiforfusionf130221140x640.jpg?itok=8gSXHxU1",
                 "topic": "Research and Development",
                 "avatarUrl": "https://robohash.org/suntquaeratodit.png?size=50x50&set=set1",
@@ -1538,9 +1879,29 @@
                 "full_article": "The IAEA is calling on interested partners to join a new coordinated research project (CRP) on accelerating fusion research and development (R&D) with artificial intelligence (AI), through the creation of a platform and cross-community network for innovation and partnership. UNESCO’s recent Recommendation on the Ethics of AI defines AI systems as information-processing technologies that integrate models and algorithms that produce a capacity to learn and to perform cognitive tasks leading to outcomes such as prediction and decision-making in material and virtual environments.",
                 "short_article": "The IAEA is calling on interested partners to join a new coordinated research project (CRP) on accelerating fusion research and development (R&D) with artificial intelligence (AI), through the creation...",
                 "title": "New CRP: Artificial Intelligence for Accelerating Fusion R&D (F13022)",
-                "_id": "013eabc7-4b2c-4300-b81b-f584859dfa33"
+                "_id": "013eabc7-4b2c-4300-b81b-f584859dfa33",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             },
-            "6033c29d-36d5-431b-ad3a-e3b8eeeaebb4": {
+            "6033c29d-36d5-431b-ad3a-e3b8eee2aebb4": {
                 "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/05/720/405/Musk.PNG.png?ve=1&tl=1",
                 "topic": "Business",
                 "avatarUrl": "https://robohash.org/numquamdoloremquo.png?size=50x50&set=set1",
@@ -1549,7 +1910,616 @@
                 "full_article": "Twitter said it removes 1 million spam accounts each day in a call with executives Thursday during a briefing that aimed to shed more light on the company's fake and bot accounts.Twitter said on the call that the spam accounts represent well below 5% of its active user base each quarter. Private data, which isn't available publicly and thus not in the data that was given to Musk, includes IP addresses, phone numbers and location. Twitter said such private data helps avoid misidentifying real accounts as spam. Musk’s team is expected to take drastic action after concluding that Twitter’s figures on spam accounts are not verifiable, The Post reported.",
                 "short_article": "Twitter said it removes 1 million spam accounts each day in a call with executives Thursday during a briefing that aimed to shed more light on the company's fake and bot accounts.Twitter said on the call that...",
                 "title": "Elon Musk’s deal to buy Twitter in jeopardy: report",
-                "_id": "6033c29d-36d5-431b-ad3a-e3b8eeeaebb4"
+                "_id": "6033c29d-36d5-431b-ad3a-e3b8eeeaebb4",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "d8ba9e5d-685e-4aec-97a1-0b06d3435aa6b": {
+                "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRETW7ZQwdE8/v1/800x-1.jpg",
+                "topic": "Entertainment",
+                "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "veyrl0@xrea.com",
+                "full_article": "Netflix Inc. has acquired the rights to stream Johnny Depp’s next film in France, a deal that will help fund the actor’s first feature role following his defamation trial against ex-wife Amber Heard, and what he claimed was a wider boycott by Hollywood studios. The entertainment giant has licensed the rights to stream the film in the country 15 months after its release in theaters, according to people familiar with the matter who asked not to be identified because the terms haven’t been announced publicly. The company does not have the rights for the film outside of France.",
+                "short_article": "Netflix Inc. has acquired the rights to stream Johnny Depp’s next film in France, a deal that will help fund the actor’s first feature...",
+                "title": "Netflix to Stream Johnny Depp’s Return to Film in France",
+                "_id": "d8ba9e5d-685e-4aec-97a1-0b06d345aa6b",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "d990d20f-4e46-4f92-bd4a-6ff76d35f69a7": {
+                "imageUrl": "https://cdn.mos.cms.futurecdn.net/N5KfU7J79k967sX2RxhwGV-1024-80.jpg.webp",
+                "topic": "Science",
+                "avatarUrl": "https://robohash.org/quivoluptatemnemo.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "gbellwood1@xing.com",
+                "full_article": "The James Webb Space Telescope will soon turn its eyes to the solar system's king, the gas giant Jupiter. Jupiter is a complex system full of mysteries, hosting realms of questions concerning the nature of its delicate rings, how its largest moons may harbor oceans of water or hidden volcanoes, and how massive storms like the Great Red Spot form in the giant planet's turbulent atmosphere. The planet will be the perfect proving ground, researchers say, for the James Webb Space Telescope, the $10 billion observatory that will showcase its first operational images on July 12 .",
+                "short_article": "The James Webb Space Telescope will soon turn its eyes to the solar system's king, the gas giant Jupiter. Jupiter is a complex system full...",
+                "title": "Jupiter and its moons will be a 'proving ground' for the James Webb Space Telescope",
+                "_id": "d990d20f-4e46-4f92-bd4a-6ff76d35f9a7",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "c3cf3a15-9672-4343-a491-0d9c5b3612dc6": {
+                "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2022/07/kim-kardashian-north-west-73.jpg?quality=75&strip=all&w=2000",
+                "topic": "Entertainment",
+                "avatarUrl": "https://robohash.org/quidemdoloremolestiae.png?size=50x50&set=set1",
+                "gender": "Male",
+                "email": "msambals2@mozilla.org",
+                "full_article": "Kim Kardashian’s daughter North asked photographers to stop taking pictures of her during the Jean Paul Gaultier Haute Couture Fall/Winter 2022/2023 show Wednesday. The 9-year-old scribbled her demand on the Paris Fashion Week event’s invitation, Kardashian revealed via Instagram the following day. For anyone who knows North knows how funny she finds the last slide! the Keeping Up With the Kardashians alum, 41, wrote Thursday.",
+                "short_article": "Kim Kardashian’s daughter North asked photographers to stop taking pictures of her during the Jean Paul Gaultier Haute Couture Fall/Winter...",
+                "title": "Kim Kardashian explains why North held ‘Stop’ sign at Paris Fashion Week show",
+                "_id": "c3cf3a15-9672-4343-a491-0d9c5b361dc6",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "f63d8b45-1ed4-4a93-b723-736dc11f642b4": {
+                "imageUrl": "https://cdn.cnn.com/cnnnext/dam/assets/220708113822-01-sepp-blatter-michel-platini-exlarge-169.jpg",
+                "topic": "Sports",
+                "avatarUrl": "https://robohash.org/quisistevoluptates.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "bbarron3@bluehost.com",
+                "full_article": "As Blatter walked into the courtroom to hear the verdict, he told reporters: I am not innocent in my life, but in this case, I am innocent. During the trial in June, Blatter claimed the payment to Platini was a paying of salary owed to the Frenchman for some consultancy work done with FIFA between 1998 and 2002. It's a salary that was due. I don't know why we are in a criminal hearing for an administrative procedure, said Blatter. Platini told me, I'm worth a million and I told him, so you'll be with me for a million -- gentlemen's agreement, the 86-year-old continued. Platini.",
+                "short_article": "As Blatter walked into the courtroom to hear the verdict, he told reporters: I am not innocent in my life, but in this case, I am innocent...",
+                "title": "Sepp Blatter and Michel Platini acquitted of fraud in Swiss Court",
+                "_id": "f63d8b45-1ed4-4a93-b723-736dc11f62b4",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "244ffccd-d183-41d0-b1c4-f9a6e49743917": {
+                "imageUrl": "https://scitechdaily.com/images/NASAs-OSIRIS-REx-Spacecraft-Surface-of-Asteroid-Bennu-777x437.jpg?ezimgfmt=ng:webp/ngcb1",
+                "topic": "Science",
+                "avatarUrl": "https://robohash.org/perferendissapienteeveniet.png?size=50x50&set=set1",
+                "gender": "Male",
+                "email": "clonghirst5@hatena.ne.jp",
+                "full_article": "Scientists have learned something astonishing after analyzing data gathered when NASA’s OSIRIS-REx spacecraft collected a sample from asteroid Bennu in October 2020. The spacecraft would have sunk into the asteroid had it not fired its thrusters to back away immediately after it grabbed its sample of dust and rock from Bennu’s surface. Unexpectedly, it turns out that the particles making up Bennu’s exterior are so loosely packed and lightly bound to each other that if a person were to step onto the asteroid they would feel very little resistance.",
+                "short_article": "Scientists have learned something astonishing after analyzing data gathered when NASA’s OSIRIS-REx spacecraft collected a sample from asteroid Bennu in October 2020...",
+                "title": "Surprise – Again! NASA Spacecraft Reveals Asteroid Bennu Is Not What It Seemed",
+                "_id": "244ffccd-d183-41d0-b1c4-f9a6e4974917",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "a149cc5c-394f-4e07-8d56-4baac1b82e041": {
+                "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TICENEH6KII6ZM45OEYJC2ABJM.jpg&w=916",
+                "topic": "Sports",
+                "avatarUrl": "https://robohash.org/laborumdolorexercitationem.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "kproudley6@china.com.cn",
+                "full_article": "MONTERREY, Mexico — Not long after a 5-0 victory over Jamaica on Thursday, the U.S. women’s national soccer team returned to its hotel for a reunion and, before long, a low-key celebration. As the Americans entered their upscale digs, Megan Rapinoe was waiting for them. Excused from the Concacaf W Championship game, the star forward had chartered back from Washington after receiving the Presidential Medal of Freedom at the White House. She greeted her 22 teammates with hugs. The players and staff then watched Haiti rout Mexico, 3-0 — a result.",
+                "short_article": "MONTERREY, Mexico — Not long after a 5-0 victory over Jamaica on Thursday, the U.S. women’s national soccer team returned to its hotel for a reunion and, before...",
+                "title": "USWNT makes quick work of Jamaica, earns World Cup berth",
+                "_id": "a149cc5c-394f-4e07-8d56-4baac1b8e041",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "18f0a73c-b3c5-4336-af9f-8a5a1b3ae0c21": {
+                "imageUrl": "https://deadline.com/wp-content/uploads/2021/04/2019_MathieuBittonL1070039_HR_R.jpg?crop=0px%2C0px%2C6000px%2C3363px&resize=681%2C383",
+                "topic": "Entertainment",
+                "avatarUrl": "https://robohash.org/quidoloremvel.png?size=50x50&set=set1",
+                "gender": "Male",
+                "email": "fspavon7@people.com.cn",
+                "full_article": "It’s not a new comedy special. But Netflix continues to ride the Dave Chappelle train, quietly releasing What’s In A Name, a chronicle of a speech Chappelle gave in June at a naming ceremony at Washington D.C.’s Duke Ellington School of the Arts. Chappelle wasn’t warmly received, and faced some angry students. The appearance was going to be for a theater that was to be named for Chappelle in consideration of his support of the school, especially after he and his friends were the group that raised the most money for the building.",
+                "short_article": "It’s not a new comedy special. But Netflix continues to ride the Dave Chappelle train, quietly releasing What’s In A Name, a chronicle of a speech Chappelle gave in June at a naming ceremony...",
+                "title": "Dave Chappelle’s ‘What’s In A Name’ Quietly Drops On Netflix, Taken From School Speech",
+                "_id": "18f0a73c-b3c5-4336-af9f-8a5a1b3ae0c4",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "83f82a0e-05e9-485f-b062-b2e0a304b80ba": {
+                "imageUrl": "https://cdn.cnn.com/cnnnext/dam/assets/220403180951-11-doja-cat-grammy-awards-2022-exlarge-169.jpg",
+                "topic": "Entertainment",
+                "avatarUrl": "https://robohash.org/illoiurea.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "cjustis8@nature.com",
+                "full_article": "The singer called out the Stranger Things actor for sharing her direct messages about his co-star, Joseph Quinn. Schnapp shared screen shots of their private conversation in a now-deleted TikTok earlier this week. In the messages, Doja had written to Schnapp, Noah can u tell Joseph to hmu [hit me up]. wait no. does he have a gf (girlfriend)?LMAOO slide into his dms, Schnapp wrote back, but the rapper said she couldn't find Quinn's account. Doja Cat expressed feeling betrayed when speaking live about the iincident Thursday on Instagram.",
+                "short_article": "The singer called out the Stranger Things actor for sharing her direct messages about his co-star, Joseph Quinn. Schnapp shared screen shots of their private conversation in a now...",
+                "title": "Doja Cat calls out Noah Schnapp for sharing her DMs about 'Stranger Things' crush",
+                "_id": "83f82a0e-05e9-485f-b062-b2e0a04b80ba",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "87df6019-3efd-4781-83af-f6b602f86e271": {
+                "imageUrl": "https://cdn.vox-cdn.com/thumbor/XFYQAZ7LWUVIpcSTv-1RSHgI_7Q=/0x0:818x545/920x613/filters:focal(397x204:527x334):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/71067722/Mead_Paddington.0.jpg",
+                "topic": "Technology",
+                "avatarUrl": "https://robohash.org/necessitatibuslaboriosamqui.png?size=50x50&set=set1",
+                "gender": "Genderfluid",
+                "email": "msnaith9@xrea.com",
+                "full_article": "Sony is removing access to hundreds of movies and TV shows on its PlayStation Store service next month, meaning users that previously paid for titles such as Paddington and The Hunger Games will no longer be able to watch them. The shutdown affects users in Germany and Austria, according to legal notices posted on the two regional sites, and covers films produced by StudioCanal. The shutdown will come into force on August 31st, exactly one year after Sony discontinued movie and TV show purchases through its digital store. ",
+                "short_article": "Sony is removing access to hundreds of movies and TV shows on its PlayStation Store service next month, meaning users that previously paid for titles such as Paddington and...",
+                "title": "PlayStation Store removes purchased movies from libraries after service shutdown",
+                "_id": "87df6019-3efd-4781-83af-f6b60f86e271",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "1d3a1daa-0eaf-4992-b467-3e8c43107ae53": {
+                "imageUrl": "https://www.sciencealert.com/images/2022-07/processed/VitaminDCapsuleBeingHeld_1024.jpeg",
+                "topic": "Health",
+                "avatarUrl": "https://robohash.org/nemoquiafacere.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "klambricka@4shared.com",
+                "full_article": "Doctors have issued a warning that not only is it entirely possible to overdose on vitamin D, it's also incredibly dangerous, after a man in the UK was hospitalized as a result of taking almost 400 times the daily recommended vitamin D. While studies have hinted at the benefits of healthy levels of vitamin D throughout the pandemic, the reality is that 'hypervitaminosis D', or vitamin D intoxication, is on the rise. And it's not something to be taken lightly. Globally, there is a growing trend of hypervitaminosis D. ",
+                "short_article": "Doctors have issued a warning that not only is it entirely possible to overdose on vitamin D, it's also incredibly dangerous, after a man in the UK was hospitalized as...",
+                "title": "Man Vomits For Months After Taking Vitamin D at Almost 400x Daily Recommended Dose",
+                "_id": "1d3a1daa-0eaf-4992-b467-3e8c4307ae53",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "0aec1042-9218-4fe4-b258-89df3d5e291f3": {
+                "imageUrl": "https://sportshub.cbsistatic.com/i/r/2022/07/07/6576d403-79c2-40d2-b497-64469ef6def8/thumbnail/770x433/842828cc79e63327d5bae5053808373f/edwards-durant-getty.png",
+                "topic": "Sports",
+                "avatarUrl": "https://robohash.org/voluptatuminveniam.png?size=50x50&set=set1",
+                "gender": "Genderfluid",
+                "email": "gmcgarryb@slideshare.net",
+                "full_article": "The Brooklyn Nets are saying they're prepared to go into training camp with Kevin Durant. But they don't want that. It will be a mess. It will be James Harden in Houston, and then Brooklyn, all over again. Ben Simmons in Philly. Paul George in Indiana. Anthony Davis in New Orleans. Kawhi Leonard in San Antonio. Kyrie Irving in Cleveland. When a player asks out in today's era, they have an almost 100 percent success rate in getting their way, and usually rather promptly. The reason, of course, the Nets.",
+                "short_article": "The Brooklyn Nets are saying they're prepared to go into training camp with Kevin Durant. But they don't want that. It will be a mess. It will be James Harden...",
+                "title": "NBA rumors: Nets asked Wolves for huge Kevin Durant trade haul, including Anthony Edwards, Karl-Anthony Towns",
+                "_id": "0aec1042-9218-4fe4-b258-89df3de291f3",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "fa441de7-86bd-4c55-9e2d-350624c528542": {
+                "imageUrl": "https://images.macrumors.com/t/Zqu4vYCPWMYm1UpjPRwC2xt03uk=/800x0/article-new/2022/07/M1-MBA-vs-M2.jpg?lossy",
+                "topic": "Technology",
+                "avatarUrl": "https://robohash.org/quasetoccaecati.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "skeeffec@about.com",
+                "full_article": "The ‌MacBook Air‌ is often chosen by those who require a portable, more affordable Apple laptop, with the device offering a lightweight design at a price well below the high-end MacBook Pro models. The ‌M2‌ ‌MacBook Air‌ joins the Mac lineup at a $1,199 price point – with the previous M1 model remaining on sale for the same $999 price tag that it debuted with in November 2020. Whether you are weighing up the upgrade from the ‌M1‌ ‌MacBook Air‌ to the ‌M2‌ ‌MacBook Air‌, or are in the market for a new ‌MacBook Air.",
+                "short_article": "The ‌MacBook Air‌ is often chosen by those who require a portable, more affordable Apple laptop, with the device offering a lightweight design at a price...",
+                "title": "M1 vs. M2 MacBook Air Buyer's Guide: Is It Worth Upgrading?",
+                "_id": "fa441de7-86bd-4c55-9e2d-35062c528542",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "cb8d89dd-babe-457a-9c12-c638b39a63ff8": {
+                "imageUrl": "https://reports.mortgagenewsdaily.com/image/article/62c737d2c26a5b2aa0350757",
+                "topic": "Business",
+                "avatarUrl": "https://robohash.org/quaeratquodut.png?size=50x50&set=set1",
+                "gender": "Male",
+                "email": "rgostlingd@arstechnica.com",
+                "full_article": "In other words, whether we're looking at today's rates versus yesterday, the end of last week, or simply on a week-over-week basis, they're HIGHER.  Whose rates?  Pretty much every lenders'.  I don't see any exceptions to the above across the scores of rate sheets I review every day to generate the MND rate index.  Those rate sheets cover 95% of the market, conservatively.  More importantly, as long as you understand that mortgage rates are primarily based on the value of mortgage-backed securities in the secondary market, this is just simple math.",
+                "short_article": "In other words, whether we're looking at today's rates versus yesterday, the end of last week, or simply on a week-over-week basis, they're HIGHER.",
+                "title": "No, Mortgage Rates Are NOT LOWER Today!",
+                "_id": "cb8d89dd-babe-457a-9c12-c638b9a63ff8",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "d62f5444-c82f-4d3c-b00c-f3e6b25d4dfa5": {
+                "imageUrl": "https://i.guim.co.uk/img/media/a1c206b3756ac566d69b7c0094769b3886a8eec7/0_164_4909_2946/master/4909.jpg?width=620&quality=45&fit=max&dpr=2&s=fd9b08bb8ecd6c4ac589415bb39c88d6",
+                "topic": "Health",
+                "avatarUrl": "https://robohash.org/eummaioresdoloribus.png?size=50x50&set=set1",
+                "gender": "Male",
+                "email": "bstoylese@gov.uk",
+                "full_article": "The BA.5 version of Covid-19 has become the majority variant of the virus in America in a matter of weeks, in a troubling development that comes amid what may already be America’s second-largest wave of the pandemic. It also comes at a time when much of the US has relaxed nearly all Covid restrictions in public and life has largely returned to normal. Covid-19 is very clearly not over. We’re seeing dramatic increases in the number of cases and hospitalizations in many places throughout the United States, said Jason Salemi.",
+                "short_article": "The BA.5 version of Covid-19 has become the majority variant of the virus in America in a matter of weeks, in a troubling development that comes amid what...",
+                "title": "Headed in a bad direction’: Omicron variant may bring second-largest US Covid wave",
+                "_id": "d62f5444-c82f-4d3c-b00c-f3e6b5d4dfa5",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "ea4e1d55-af29-4864-8a94-08f4b018b97a6": {
+                "imageUrl": "https://digiday.com/wp-content/uploads/sites/3/2022/02/social-platforms-money.png?resize=1030,579",
+                "topic": "Marketing",
+                "avatarUrl": "https://robohash.org/beataeadsunt.png?size=50x50&set=set1",
+                "gender": "Agender",
+                "email": "nduftonf@nhs.uk",
+                "full_article": "The financial details of the deal were not publicly disclosed, but it’s worth noting that while Goodway Group is making the purchase, its own consultancy arm Control vs. Exposed will absorb Canton. Rob Webster and Nick King, Canton’s co-founders, will now serve as global vice presidents of strategy and commercial respectively and will report to Paul Frampton-Calero, the U.K.-based president of CvE who said the combined headcount of the two will exceed 40. Founded in 2018, Canton has worked with brands including Nokia, gaming giant Paddy Power.",
+                "short_article": "The financial details of the deal were not publicly disclosed, but it’s worth noting that while Goodway Group is making the purchase, its own consultancy arm Control vs.",
+                "title": "The Rundown: Goodway Group buys Canton Marketing Solutions, a sign of necessary agency evolution",
+                "_id": "ea4e1d55-af29-4864-8a94-08f4b08b97a6",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "4ef4cf24-a804-4dcd-bbc7-c8ba499be3030": {
+                "imageUrl": "https://image.cnbcfm.com/api/v1/image/107085815-1657218583226-gettyimages-151887475-NEW_WAL-MART_STORE.jpeg?v=1657218725&w=740&h=416",
+                "topic": "Business",
+                "avatarUrl": "https://robohash.org/quiquisut.png?size=50x50&set=set1",
+                "gender": "Male",
+                "email": "apetrillog@wootopics.com",
+                "full_article": "The abundance of inventory and promotions creates a unique backdrop for this year’s Amazon Prime Day. The sales event will take place Tuesday and Wednesday. Since its debut in 2015, it has become a shopping holiday that has lifted sales not only for Amazon, but nearly every online retailer. It also tees up a more challenging period for the retail industry. Inflation has cut into Americans’ budgets, leaving fewer dollars for discretionary spending. Heavy promotions by some retailers pressure others to cut prices, too. And after a pandemic period marked by fewer discounts and higher profits.",
+                "short_article": "The abundance of inventory and promotions creates a unique backdrop for this year’s Amazon Prime Day. The sales event will take place Tuesday and Wednesday. Since its debut in 2015",
+                "title": "Walmart won’t hold rival event to Amazon Prime Day, as it is already offering big markdowns",
+                "_id": "4ef4cf24-a804-4dcd-bbc7-c8b499be3030",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "41335069-a0f1-4ca1-9127-7320ffcf194ea": {
+                "imageUrl": "https://storage.googleapis.com/afs-prod/media/b210175b27d7424fbcf47789e183c55e/1000.jpeg",
+                "topic": "Business",
+                "avatarUrl": "https://robohash.org/excepturiimpeditminus.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "mjoiceh@oracle.com",
+                "full_article": "SAN JOSE, Calif. (AP) — A jury on Thursday convicted former Theranos executive Ramesh Sunny Balwani of collaborating with disgraced Theranos CEO Elizabeth Holmes in a massive fraud involving the blood-testing company that once enthralled Silicon Valley. The 12 jurors found Balwani guilty on all 12 felony counts of defrauding both Theranos investors and the patients who relied on wildly unreliable blood tests that could have jeopardized their health. Balwani sat impassively as the verdicts were read in a San Jose, California, court, blinking frequently but rarely looking at the seven women and five men who convicted him.",
+                "short_article": "SAN JOSE, Calif. (AP) — A jury on Thursday convicted former Theranos executive Ramesh Sunny Balwani of collaborating with disgraced Theranos CEO Elizabeth Holmes in a massive fraud involving...",
+                "title": "Former Theranos exec Ramesh Balwani convicted of fraud",
+                "_id": "41335069-a0f1-4ca1-9127-730ffcf194ea",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "013eabc7-4b2c-4300-b81b-f584a859dfa33": {
+                "imageUrl": "https://www.iaea.org/sites/default/files/styles/width_555px_6_units_16_9/public/2022-06-09newcrpaiforfusionf130221140x640.jpg?itok=8gSXHxU1",
+                "topic": "Research and Development",
+                "avatarUrl": "https://robohash.org/suntquaeratodit.png?size=50x50&set=set1",
+                "gender": "Agender",
+                "email": "rmonseyi@imageshack.us",
+                "full_article": "The IAEA is calling on interested partners to join a new coordinated research project (CRP) on accelerating fusion research and development (R&D) with artificial intelligence (AI), through the creation of a platform and cross-community network for innovation and partnership. UNESCO’s recent Recommendation on the Ethics of AI defines AI systems as information-processing technologies that integrate models and algorithms that produce a capacity to learn and to perform cognitive tasks leading to outcomes such as prediction and decision-making in material and virtual environments.",
+                "short_article": "The IAEA is calling on interested partners to join a new coordinated research project (CRP) on accelerating fusion research and development (R&D) with artificial intelligence (AI), through the creation...",
+                "title": "New CRP: Artificial Intelligence for Accelerating Fusion R&D (F13022)",
+                "_id": "013eabc7-4b2c-4300-b81b-f584859dfa33",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
+            },
+            "6033c29d-36d5-431b-ad3a-e3b8eeseaebb4": {
+                "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/05/720/405/Musk.PNG.png?ve=1&tl=1",
+                "topic": "Business",
+                "avatarUrl": "https://robohash.org/numquamdoloremquo.png?size=50x50&set=set1",
+                "gender": "Female",
+                "email": "panglissj@huffingtonpost.com",
+                "full_article": "Twitter said it removes 1 million spam accounts each day in a call with executives Thursday during a briefing that aimed to shed more light on the company's fake and bot accounts.Twitter said on the call that the spam accounts represent well below 5% of its active user base each quarter. Private data, which isn't available publicly and thus not in the data that was given to Musk, includes IP addresses, phone numbers and location. Twitter said such private data helps avoid misidentifying real accounts as spam. Musk’s team is expected to take drastic action after concluding that Twitter’s figures on spam accounts are not verifiable, The Post reported.",
+                "short_article": "Twitter said it removes 1 million spam accounts each day in a call with executives Thursday during a briefing that aimed to shed more light on the company's fake and bot accounts.Twitter said on the call that...",
+                "title": "Elon Musk’s deal to buy Twitter in jeopardy: report",
+                "_id": "6033c29d-36d5-431b-ad3a-e3b8eeeaebb4",
+                "comments": {
+                    "comment_one": {
+                        "email": "kikoner81@gmail.com",
+                        "avatarUrl": "https://robohash.org/sapientenihilquaerat.png?size=50x50&set=set1",
+                        "gender": "Male",
+                        "content": "Very nice information, I didn't expect it :D"
+                    },
+                    "comment_two": {
+                        "email": "ema21@gmail.com",
+                        "avatarUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/7f/7f5c639dacc0fa8a64c6b95000bd1487ec4ab013.jpg",
+                        "gender": "Female",
+                        "content": "Can you believe on such an information??"
+                    },
+                    "comment_three": {
+                        "email": "coolGuy@yahoo.com",
+                        "avatarUrl": "https://avatars.steamstatic.com/4836ce8ca6d0667b6642dda9575bf2f1cc90956a.jpg",
+                        "gender": "Male",
+                        "content": "I Love this website, and it's content! :)"
+                    },
+                }
             }
         },
         recipes: {

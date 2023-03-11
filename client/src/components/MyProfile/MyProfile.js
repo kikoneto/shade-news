@@ -1,5 +1,4 @@
 import './MyProfile.css';
-import { useState } from 'react';
 
 import { useAuth } from '../../contexts/authContext';
 import { isAuth } from '../../hoc/isAuth';
@@ -9,13 +8,6 @@ const MyProfile = () => {
 
     const { user } = useAuth();
 
-    console.log(user)
-
-    const [emailChange, setEmailChange] = useState(false);
-    const [usernameChange, setUsernameChange] = useState(false);
-    const [genderChange, setGenderChange] = useState(false);
-
-
     return (
         <section className="my-profile-section">
             <div className="profile-container">
@@ -24,7 +16,7 @@ const MyProfile = () => {
                 <div className="profile-content">
 
                     <div className="avatar">
-                        <img src={user.avatarUrl} />
+                        <img src={user.avatarUrl} alt="" />
                     </div>
 
                     <div className="profile-box profile-email">

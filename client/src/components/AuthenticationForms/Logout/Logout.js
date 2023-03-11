@@ -14,8 +14,8 @@ export const Logout = () => {
     }
 
     return (
-        <div className={currAuth == 'logout' ? 'logout-section dark' : 'logout-section'}>
-            <div className={currAuth == 'logout' ? 'logout-panel active' : 'logout-panel'}>
+        <div className={currAuth === 'logout' ? 'logout-section dark' : 'logout-section'}>
+            <div className={currAuth === 'logout' ? 'logout-panel active' : 'logout-panel'}>
                 <h2>Sign Out</h2>
                 <h3>Are you sure you want to sign out?</h3>
                 <div className="button-container">

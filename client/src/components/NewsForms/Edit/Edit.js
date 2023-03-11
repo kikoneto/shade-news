@@ -1,32 +1,58 @@
 import '../NewsForms.css';
 
+import { useParams, useNavigate } from 'react-router-dom';
+
+import { useNews } from '../../../contexts/newsContext';
+import { useEffect, useState } from 'react';
+
 export const Edit = () => {
+
+    const { _id } = useParams();
+    const { getById } = useNews();
+
+    const [currentNews, setCurrentNews] = useState({});
+
+    useEffect(() => {
+        getById(_id)
+            .then(res => setCurrentNews(res));
+    }, [])
+
+    const editForm = (
+        <div className="edit-form-container news-form-container">
+            <h1>Edit: {currentNews.title}</h1>
+            <form className="edit-form news-form">
+                <label htmlFor="title">Title</label>
+                <input type="text" name="title" placeholder={currentNews.title} />
+                <label htmlFor="full_article">Full Article</label>
+                <input type="text" name="full_article" placeholder={currentNews.full_article} />
+                <label htmlFor="short_article">Short Version of the Article</label>
+                <input type="text" name="short_article" placeholder={currentNews.short_article} />
+                <label htmlFor="image_url">Image URL</label>
+                <input type="text" name="image_url"
+                    placeholder={currentNews.imageUrl} />
+                <label htmlFor="topic">Topic</label>
+                <select className="topic" name="topic">
+                    <option value="Technology">Technology</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Science">Science</option>
+                    <option value="Business">Business</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+                <input type="submit" value="Edit" />
+            </form>
+        </div>
+    );
+
     return (
         <section className="edit-section">
-            <div className="edit-form-container news-form-container">
-                <h1>Edit: 'Tony Stark Got Pregnant'</h1>
-                <form className="edit-form news-form">
-                    <label htmlFor="title">Title</label>
-                    <input type="text" name="title" />
-                    <label htmlFor="full_article">Full Article</label>
-                    <input type="text" name="full_article" placeholder="Word limit 110" />
-                    <label htmlFor="short_article">Short Version of the Article</label>
-                    <input type="text" name="short_article" placeholder="Word limit 25" />
-                    <label htmlFor="image_url">Image URL</label>
-                    <input type="text" name="image_url"
-                        placeholder="exmp: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRETW7ZQwdE8/v1/800x-1.jpg" />
-                    <label htmlFor="topic">Topic</label>
-                    <select className="topic" name="topic">
-                        <option value="technology">Technology</option>
-                        <option value="sport">Sport</option>
-                        <option value="entertainment">Entertainment</option>
-                        <option value="science">Science</option>
-                        <option value="business">Business</option>
-                        <option value="marketing">Marketing</option>
-                    </select>
-                    <input type="submit" value="Edit" />
-                </form>
-            </div>
+
+            {
+                currentNews ?
+                    editForm
+                    : <h1>Loading</h1>
+            }
+
         </section>
     );
 }

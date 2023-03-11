@@ -3,8 +3,10 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
 import { useLocalStorage } from './hooks/useLocalStorage';
+
 import { AuthIntProvider } from './contexts/userInteractionContext';
 import { AuthProvider } from './contexts/authContext';
+import { NewsProvider } from './contexts/newsContext';
 
 import { Header } from './components/Header/Header'
 import { NewsCatalog } from './components/NewsCatalog/NewsCatalog';
@@ -37,13 +39,15 @@ function App() {
                     </AuthIntProvider>
 
                     <main>
-                         <Routes>
-                              <Route path='/' element={<NewsCatalog />} />
-                              <Route path='/details' element={<NewsDetails />} />
-                              <Route path='/create' element={<Create />} />
-                              <Route path='/edit/*' element={<Edit />} />
-                              <Route path='/my-profile' element={<ProtectedRoute />} />
-                         </Routes>
+                         <NewsProvider>
+                              <Routes>
+                                   <Route path='/' element={<NewsCatalog />} />
+                                   <Route path='/my-profile' element={<ProtectedRoute />} />
+                                   <Route path='/create' element={<Create />} />
+                                   <Route path='/details/:_id/edit' element={<Edit />} />
+                                   <Route path='/details/:_id' element={<NewsDetails />} />
+                              </Routes>
+                         </NewsProvider>
                     </main>
                </AuthProvider>
 

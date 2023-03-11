@@ -1,86 +1,21 @@
 import './NewsCatalog.css';
 
+import { useNews } from '../../contexts/newsContext';
+import { NewsCard } from './NewsCard/NewsCard';
+
 export const NewsCatalog = () => {
+
+    const { news } = useNews();
+
     return (
+
         <section className="news">
             <div className="news-container">
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse porro ab id optio aperiam. Sapiente
-                        dolore quisquam dignissimos saepe, totam iste odit repellat laudantium quod nobis id iure
-                        numquam sed, doloribus harum eos earum. Sequi reiciendis amet et non laborum.</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
-                <div className="new-box">
-                    <h1>Tony Stark is now pregnant</h1>
-                    <img src="images/AP20056580390963-e1660147513773.jpg" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum?</p>
-                </div>
+                {
+                    news.count !== 0 ?
+                        news.map(x => <NewsCard currentNews={x} key={x._id} />)
+                        : <h1>No News</h1>
+                }
             </div>
         </section>
     );

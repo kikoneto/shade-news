@@ -21,7 +21,7 @@ export const Login = () => {
     }
 
     const changeRemeber = () => {
-        if (remembered == true) {
+        if (remembered === true) {
             setRemembered(false);
         } else {
             setRemembered(true)
@@ -66,13 +66,13 @@ export const Login = () => {
 
                             <div className="sign-later">
                                 <p>New to Shade<span>News</span>?</p>
-                                <a onClick={redirectToRegister}>Sign Up Now.</a>
+                                <a as={'li'} onClick={redirectToRegister}>Sign Up Now.</a>
                             </div>
 
                         </div>
 
                         <div className="help-container">
-                            <a>Need Help?</a>
+                            <a as={'li'}>Need Help?</a>
                         </div>
 
                     </div>

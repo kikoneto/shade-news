@@ -1,0 +1,14 @@
+/* Details / Comments */
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.comments-container .comments-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 4px 10px;
+}

@@ -13,15 +13,13 @@ export const Header = ({ setSkinColor }) => {
     const { currAuth, changeAuth } = useAuthInt();
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', () => changeAuth(''));
+
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', () => changeAuth(''));
         };
     }, []);
 
-    const handleScroll = () => {
-        changeAuth('');
-    };
 
     const guestNav = (
         <ul className="nav guest-nav main-nav">
