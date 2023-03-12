@@ -35,3 +35,14 @@ export const edit = (id, body, accessToken) => {
     })
         .then(res => res.json());
 }
+
+export const del = (id, accessToken) => {
+    return fetch(`${baseUrl}/${id}`, {
+        method: "DELETE",
+        headers: {
+            "content-type": "application/json",
+            "X-Authorization": accessToken,
+        },
+    })
+        .then(res => res.json());
+}

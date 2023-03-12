@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 import { useNews } from '../../contexts/newsContext';
+import { useAuth } from '../../contexts/authContext';
 
 import { Comments } from './Comments/Comments';
 
@@ -12,7 +13,8 @@ export const NewsDetails = () => {
 
     const navigate = useNavigate();
     const { _id } = useParams();
-    const { getById } = useNews();
+    const { getById, deleteNews } = useNews();
+    const { user } = useAuth();
 
     const [currentNews, setCurrentNews] = useState({});
 
@@ -21,6 +23,10 @@ export const NewsDetails = () => {
             then(res => setCurrentNews(res))
     }, [])
 
+    const onDeleteHandler = () => {
+        deleteNews(_id, user.accessToken);
+        navigate('/');
+    }
     let isOwner = true;
 
     return (
@@ -32,7 +38,7 @@ export const NewsDetails = () => {
                         isOwner ?
                             <div className="details-owner-options">
                                 <i className="fa-solid fa-pen" onClick={() => navigate(`/details/${_id}/edit`)}></i>
-                                <i className="fa-solid fa-x"></i>
+                                <i className="fa-solid fa-x" onClick={onDeleteHandler}></i>
                             </div>
                             : null
                     }

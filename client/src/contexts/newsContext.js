@@ -1,6 +1,6 @@
 import { useState, createContext, useContext } from "react";
 
-import { getAll, getById, create, edit } from '../services/newsService';
+import { getAll, getById, create, edit, del } from '../services/newsService';
 
 const NewsContext = createContext();
 
@@ -23,8 +23,13 @@ export const NewsProvider = ({ children }) => {
             .then(() => alert('Successful Edit'))
     }
 
+    const deleteNews = (id, accessToken) => {
+        del(id, accessToken)
+            .then(() => alert('Successful Remove!'))
+    }
+
     return (
-        <NewsContext.Provider value={{ news, getById, createNews, getAllNews, editNews }}>
+        <NewsContext.Provider value={{ news, getById, createNews, getAllNews, editNews, deleteNews}}>
             {children}
         </NewsContext.Provider>
     )
