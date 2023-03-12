@@ -94,7 +94,7 @@
             // NOTE: the OPTIONS method results in undefined result and also it never processes plugins - keep this in mind
             if (method == 'OPTIONS') {
                 Object.assign(headers, {
-                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS, PATCH',
                     'Access-Control-Allow-Credentials': false,
                     'Access-Control-Max-Age': '86400',
                     'Access-Control-Allow-Headers': 'X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept, X-Authorization, X-Admin'
@@ -2438,6 +2438,7 @@
                 "short_article": "SAN JOSE, Calif. (AP) — A jury on Thursday convicted former Theranos executive Ramesh Sunny Balwani of collaborating with disgraced Theranos CEO Elizabeth Holmes in a massive fraud involving...",
                 "title": "Former Theranos exec Ramesh Balwani convicted of fraud",
                 "_id": "41335069-a0f1-4ca1-9127-730ffcf194ea",
+                "_createdOn": 1614260681375,
                 "comments": {
                     "comment_one": {
                         "email": "kikoner81@gmail.com",
@@ -2500,6 +2501,7 @@
                 "short_article": "Twitter said it removes 1 million spam accounts each day in a call with executives Thursday during a briefing that aimed to shed more light on the company's fake and bot accounts.Twitter said on the call that...",
                 "title": "Elon Musk’s deal to buy Twitter in jeopardy: report",
                 "_id": "6033c29d-36d5-431b-ad3a-e3b8eeeaebb4",
+                "_createdOn": 1613551388703,
                 "comments": {
                     "comment_one": {
                         "email": "kikoner81@gmail.com",

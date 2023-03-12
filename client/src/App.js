@@ -13,9 +13,9 @@ import { NewsCatalog } from './components/NewsCatalog/NewsCatalog';
 import { Login } from './components/AuthenticationForms/Login/Login';
 import { Register } from './components/AuthenticationForms/Register/Register';
 import { Logout } from './components/AuthenticationForms/Logout/Logout';
-import { Create } from './components/NewsForms/Create/Create';
-import { Edit } from './components/NewsForms/Edit/Edit';
-import { ProtectedRoute } from './components/MyProfile/MyProfile';
+import { ProtectedCreate } from './components/NewsForms/Create/Create';
+import { ProtectedEdit } from './components/NewsForms/Edit/Edit';
+import { ProtectedProfile } from './components/MyProfile/MyProfile';
 import { NewsDetails } from './components/NewsDetails/NewsDetails';
 import { Footer } from './components/Footer/Footer';
 
@@ -42,9 +42,9 @@ function App() {
                          <NewsProvider>
                               <Routes>
                                    <Route path='/' element={<NewsCatalog />} />
-                                   <Route path='/my-profile' element={<ProtectedRoute />} />
-                                   <Route path='/create' element={<Create />} />
-                                   <Route path='/details/:_id/edit' element={<Edit />} />
+                                   <Route path='/my-profile' element={<ProtectedProfile />} />
+                                   <Route path='/create' element={<ProtectedCreate />} />
+                                   <Route path='/details/:_id/edit' element={<ProtectedEdit />} />
                                    <Route path='/details/:_id' element={<NewsDetails />} />
                               </Routes>
                          </NewsProvider>

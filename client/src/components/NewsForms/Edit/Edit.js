@@ -1,14 +1,20 @@
 import '../NewsForms.css';
 
+import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 import { useNews } from '../../../contexts/newsContext';
-import { useEffect, useState } from 'react';
+import { useAuth } from '../../../contexts/authContext';
 
-export const Edit = () => {
+import { isAuth } from '../../../hoc/isAuth';
 
+const Edit = () => {
+
+    const navigate = useNavigate();
     const { _id } = useParams();
-    const { getById } = useNews();
+    const { getById, editNews } = useNews();
+    const { user } = useAuth();
+
 
     const [currentNews, setCurrentNews] = useState({});
 
@@ -17,10 +23,33 @@ export const Edit = () => {
             .then(res => setCurrentNews(res));
     }, [])
 
+    const onEditHandler = (e) => {
+        e.preventDefault();
+
+        let form = new FormData(e.currentTarget);
+
+        let title = form.get('title');
+        let shortArticle = form.get('short_article');
+        let fullArticle = form.get('full_article');
+        let imageUrl = form.get('image_url');
+        let topic = form.get('topic');
+
+        const post = {
+            "title": title ? title : currentNews.title,
+            "full_article": fullArticle ? fullArticle : currentNews.full_article,
+            "short_article": shortArticle ? shortArticle : currentNews.short_article,
+            "imageUrl": imageUrl ? imageUrl : currentNews.imageUrl,
+            "topic": topic ? topic : currentNews.topic,
+        }
+
+        editNews(currentNews._id, post, user.accessToken);
+        navigate('/');
+    }
+
     const editForm = (
         <div className="edit-form-container news-form-container">
             <h1>Edit: {currentNews.title}</h1>
-            <form className="edit-form news-form">
+            <form className="edit-form news-form" onSubmit={onEditHandler}>
                 <label htmlFor="title">Title</label>
                 <input type="text" name="title" placeholder={currentNews.title} />
                 <label htmlFor="full_article">Full Article</label>
@@ -56,3 +85,5 @@ export const Edit = () => {
         </section>
     );
 }
+
+export const ProtectedEdit = isAuth(Edit);

@@ -21,7 +21,6 @@ export const AuthProvider = ({ children }) => {
 
     const [user, setUser] = useLocalStorage('auth', { ...initialState });
 
-
     const onLogin = (authData) => {
         login(authData)
             .then(res => {

@@ -40,4 +40,4 @@ const MyProfile = () => {
     );
 }
 
-export const ProtectedRoute = isAuth(MyProfile);
+export const ProtectedProfile = isAuth(MyProfile);

@@ -1,18 +1,23 @@
 import './NewsCatalog.css';
 
+import { useEffect } from 'react';
 import { useNews } from '../../contexts/newsContext';
 import { NewsCard } from './NewsCard/NewsCard';
 
 export const NewsCatalog = () => {
 
-    const { news } = useNews();
+    const { news, getAllNews } = useNews();
+
+    useEffect(() => {
+        getAllNews();
+    }, [])
 
     return (
 
         <section className="news">
             <div className="news-container">
                 {
-                    news.count !== 0 ?
+                    news ?
                         news.map(x => <NewsCard currentNews={x} key={x._id} />)
                         : <h1>No News</h1>
                 }
