@@ -37,7 +37,7 @@ export const Login = () => {
         let password = form.get('password');
 
         if (email && password) {
-            onLogin({ email, password });
+            onLogin({ email, password }, remembered);
             changeAuth('');
 
         } else {

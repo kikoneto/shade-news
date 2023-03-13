@@ -1,6 +1,7 @@
-import { useNavigate } from 'react-router-dom';
+import { createContext, useContext, useEffect } from "react";
 
-import { createContext, useContext } from "react";
+// import { useNavigate } from 'react-router-dom';
+
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { login, register } from "../services/authService";
 
@@ -8,20 +9,18 @@ export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const initialState = {
-        _id: '',
-        email: '',
-        gender: '',
-        username: '',
-        avatarUrl: '',
-        accessToken: '',
-    }
+    const [user, setUser] = useLocalStorage('auth', null);
 
-    const [user, setUser] = useLocalStorage('auth', { ...initialState });
+    // Temporary Solution for keeping user info on refresh
+    useEffect(() => {
+        if (user) {
+            onLogin(user, true)
+        }
+    }, [])
 
-    const onLogin = (authData) => {
+    const onLogin = (authData, remembered) => {
         login(authData)
             .then(res => {
                 let user = {
@@ -31,13 +30,10 @@ export const AuthProvider = ({ children }) => {
                     gender: res.gender,
                     username: res.username,
                     _createdOn: res._createdOn,
-                    _id: res._id
+                    _id: res._id,
+                    password: authData.password
                 }
-
-                setUser(user);
-
-                navigate('/');
-
+                setUser(user, remembered);
             })
             .catch(err => {
                 alert(err);
@@ -54,11 +50,10 @@ export const AuthProvider = ({ children }) => {
                     gender: res.gender,
                     username: res.username,
                     _createdOn: res._createdOn,
-                    _id: res._id
+                    _id: res._id,
+                    password: res.password
                 }
-                setUser(user)
-
-                navigate('/');
+                setUser(user);
             })
             .catch(err => {
                 alert(err);
@@ -66,8 +61,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     const onLogout = () => {
-        setUser(null);
-        navigate('/');
+        setUser(null, true);
     }
 
     return (

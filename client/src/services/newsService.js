@@ -21,7 +21,8 @@ export const create = (post, accessToken) => {
         },
         body: JSON.stringify(post)
     })
-        .then(res => res.json());
+        .then(res => res.json())
+        .catch(err => err.message);
 }
 
 export const edit = (id, body, accessToken) => {
@@ -33,7 +34,8 @@ export const edit = (id, body, accessToken) => {
         },
         body: JSON.stringify(body)
     })
-        .then(res => res.json());
+        .then(res => res.json())
+        .catch(err => err.message);
 }
 
 export const del = (id, accessToken) => {
@@ -44,5 +46,6 @@ export const del = (id, accessToken) => {
             "X-Authorization": accessToken,
         },
     })
-        .then(res => res.json());
+        .then(res => res.json())
+        .catch(err => err.message);
 }

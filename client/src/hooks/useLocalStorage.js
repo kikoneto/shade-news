@@ -8,10 +8,15 @@ export const useLocalStorage = (key, defaultValue) => {
         return storedData ? JSON.parse(storedData) : defaultValue;
     });
 
-    const setLocalStorageValue = (newValue) => {
-        localStorage.setItem(key, JSON.stringify(newValue));
+    const setLocalStorageValue = (newValue, remembered) => {
 
-        setValue(newValue);
+        if (remembered) {
+            localStorage.setItem(key, JSON.stringify(newValue));
+
+            setValue(newValue);
+        } else {
+            setValue(newValue);
+        }
     };
 
     return [

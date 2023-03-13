@@ -27,21 +27,39 @@ export const NewsDetails = () => {
         deleteNews(_id, user.accessToken);
         navigate('/');
     }
-    let isOwner = true;
 
-    return (
-        <section className="news-details">
+    let newsDetails = (
+        <div className="news-details-container">
+            <div className="details-header">
+                <h1 className="details-title">{currentNews.title}</h1>
+            </div>
+
+            <div className="details">
+                <img src={currentNews.imageUrl} />
+
+                <div className="details-text">
+                    <h5>{currentNews.full_article}</h5>
+                </div>
+            </div>
+
+            <Comments comments={currentNews.comments} />
+        </div>
+    )
+    if (user && currentNews) {
+        newsDetails = (
             <div className="news-details-container">
                 <div className="details-header">
                     <h1 className="details-title">{currentNews.title}</h1>
+
                     {
-                        isOwner ?
+                        user._id === currentNews._ownerId ?
                             <div className="details-owner-options">
                                 <i className="fa-solid fa-pen" onClick={() => navigate(`/details/${_id}/edit`)}></i>
                                 <i className="fa-solid fa-x" onClick={onDeleteHandler}></i>
                             </div>
                             : null
                     }
+
                 </div>
 
                 <div className="details">
@@ -54,6 +72,12 @@ export const NewsDetails = () => {
 
                 <Comments comments={currentNews.comments} />
             </div>
+        )
+    }
+
+    return (
+        <section className="news-details">
+            {newsDetails}
         </section>
     );
 }

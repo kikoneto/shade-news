@@ -24,7 +24,7 @@ function App() {
      const [skinColor, setSkinColor] = useLocalStorage('color', '#ca2e55');
 
      const changeSkinColor = (color) => {
-          setSkinColor(color);
+          setSkinColor(color, true);
      }
 
      return (
