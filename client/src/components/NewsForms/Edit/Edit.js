@@ -3,10 +3,15 @@ import '../NewsForms.css';
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
+import { articleValidation } from '../../../services/formsValidation';
+
 import { useNews } from '../../../contexts/newsContext';
 import { useAuth } from '../../../contexts/authContext';
 
 import { isAuth } from '../../../hoc/isAuth';
+import { edit } from '../../../services/newsService';
+
+
 
 const Edit = () => {
 
@@ -42,8 +47,12 @@ const Edit = () => {
             "topic": topic ? topic : currentNews.topic,
         }
 
-        editNews(currentNews._id, post, user.accessToken);
-        navigate('/');
+        const valid = articleValidation(title, shortArticle, fullArticle, imageUrl, topic, false);
+
+        if (valid) {
+            editNews(currentNews._id, post, user.accessToken);
+            navigate('/');
+        }
     }
 
     const editForm = (

@@ -44,7 +44,8 @@ export const NewsDetails = () => {
 
             <Comments comments={currentNews.comments} />
         </div>
-    )
+    );
+
     if (user && currentNews) {
         newsDetails = (
             <div className="news-details-container">

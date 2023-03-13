@@ -8,7 +8,7 @@ export const Comments = ({ comments }) => {
             <h1 className="comments-title">Comments</h1>
             {
                 comments ?
-                    Object.values(comments).map(x => <CommentCard comment={x} />)
+                    Object.values(comments).map(x => <CommentCard comment={x} key={x.content} />)
                     : <h1>Loading</h1>
             }
 

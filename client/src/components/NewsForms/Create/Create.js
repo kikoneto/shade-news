@@ -2,9 +2,13 @@ import '../NewsForms.css';
 
 import { useNavigate } from 'react-router-dom';
 
+import { articleValidation } from '../../../services/formsValidation';
+
 import { useAuth } from '../../../contexts/authContext';
 import { useNews } from '../../../contexts/newsContext';
+
 import { isAuth } from '../../../hoc/isAuth';
+
 
 const Create = () => {
 
@@ -22,6 +26,8 @@ const Create = () => {
         let fullArticle = form.get('full_article');
         let imageUrl = form.get('image_url');
         let topic = form.get('topic');
+
+        const valid = articleValidation(title, shortArticle, fullArticle, imageUrl, topic, true);
 
         const post = {
             imageUrl,
@@ -54,10 +60,7 @@ const Create = () => {
             }
         }
 
-        if (!imageUrl || !topic || !title || !shortArticle || !fullArticle) {
-            alert('Empty Fields!')
-            return;
-        } else {
+        if (valid) {
             createNews(post, user.accessToken);
             navigate('/');
         }
