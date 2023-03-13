@@ -1,7 +1,7 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useAuthInt } from '../../contexts/userInteractionContext';
 import { useAuth } from '../../contexts/authContext';
@@ -12,8 +12,13 @@ export const Header = ({ setSkinColor }) => {
     const { user } = useAuth();
     const { currAuth, changeAuth } = useAuthInt();
 
+    const [open, setOpen] = useState(false);
+
     useEffect(() => {
-        window.addEventListener('scroll', () => changeAuth(''));
+        window.addEventListener('scroll', () => {
+            changeAuth('');
+            setOpen(false);
+        });
 
         return () => {
             window.removeEventListener('scroll', () => changeAuth(''));
@@ -49,6 +54,16 @@ export const Header = ({ setSkinColor }) => {
         </ul>
     );
 
+    const onResNavHandler = () => {
+        if (open) {
+            setOpen(false);
+            changeAuth('');
+        } else {
+            setOpen(true);
+            changeAuth('res-menu');
+        }
+    }
+
     return (
         <header>
             <div className="header">
@@ -72,7 +87,7 @@ export const Header = ({ setSkinColor }) => {
                     <div className="red color" onClick={() => setSkinColor('#ff0000')}></div>
                 </div>
 
-                <div className="burger-nav" onClick={() => changeAuth('res-menu')}>
+                <div className="burger-nav" onClick={onResNavHandler}>
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
