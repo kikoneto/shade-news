@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3030/data/news';
+const baseUrl = 'https://shadenews-api-softuni-custom.herokuapp.com/data/news';
 
 export const getAll = () => {
     return fetch(`${baseUrl}`)

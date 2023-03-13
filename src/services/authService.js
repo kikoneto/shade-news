@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3030'
+const baseUrl = 'https://shadenews-api-softuni-custom.herokuapp.com'
 
 export const login = async ({ email, password }) => {
     let res = await fetch(`${baseUrl}/users/login`, {
