@@ -54,6 +54,14 @@
     .new-box h1 {
         font-size: 15px;
     }
+
+    .new-box:hover {
+        height: 310px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.822);
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -65,6 +73,14 @@
     .new-box h1 {
         font-size: 17px;
     }
+
+    .new-box:hover {
+        height: 330px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.822);
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -75,6 +91,14 @@
 
     .new-box h1 {
         font-size: 19px;
+    }
+
+    .new-box:hover {
+        height: 350px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.822);
+        cursor: pointer;
+        transition: all 0.5s ease;
     }
 }
 
