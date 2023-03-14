@@ -6,18 +6,18 @@ import { useAuth } from '../../../contexts/authContext';
 
 export const Login = () => {
 
-    const { changeAuth, currAuth } = useAuthInt();
+    const { login, changeToRegister, changeToNone } = useAuthInt();
     const { onLogin } = useAuth();
 
     const [remembered, setRemembered] = useState(false);
 
     const removeLogin = () => {
-        changeAuth('');
+        changeToNone();
     }
 
     const redirectToRegister = (e) => {
         e.preventDefault();
-        changeAuth('register');
+        changeToRegister();
     }
 
     const changeRemeber = () => {
@@ -38,7 +38,7 @@ export const Login = () => {
 
         if (email && password) {
             onLogin({ email, password }, remembered);
-            changeAuth('');
+            changeToNone();
 
         } else {
             alert('Empty Fields!')
@@ -46,9 +46,9 @@ export const Login = () => {
     }
 
     return (
-        <section className={currAuth === 'login' ? 'login-section dark' : 'login-section '}>
+        <section className={login ? 'login-section dark' : 'login-section '}>
             <div className="login">
-                <div className={currAuth === 'login' ? 'login-panel active' : 'login-panel '}>
+                <div className={login ? 'login-panel active' : 'login-panel '}>
                     <i className="fa-solid fa-arrow-left" onClick={removeLogin}></i>
                     <h1>Sign In</h1>
                     <form className="login-form" onSubmit={loginHandler}>

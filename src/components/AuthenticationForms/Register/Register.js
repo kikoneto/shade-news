@@ -5,16 +5,16 @@ import { useAuth } from '../../../contexts/authContext';
 
 export const Register = () => {
 
-    const { changeAuth, currAuth } = useAuthInt();
+    const { register, changeToLogin, changeToNone } = useAuthInt();
     const { onRegister } = useAuth();
 
     const removeRegister = () => {
-        changeAuth('');
+        changeToNone();
     }
 
     const redirectToLogin = (e) => {
         e.preventDefault();
-        changeAuth('login');
+        changeToLogin();
     }
 
     const registerHandler = (e) => {
@@ -41,7 +41,7 @@ export const Register = () => {
 
         if (email && password && rePassword && username) {
             onRegister(user);
-            changeAuth('');
+            changeToNone();
 
         } else {
             alert('Empty Fields!')
@@ -49,9 +49,9 @@ export const Register = () => {
     }
 
     return (
-        <section className={currAuth === 'register' ? 'register-section dark' : 'register-section'}>
+        <section className={register ? 'register-section dark' : 'register-section'}>
             <div className="register">
-                <div className={currAuth === 'register' ? 'register-panel active' : 'register-panel'}>
+                <div className={register ? 'register-panel active' : 'register-panel'}>
                     <i className="fa-solid fa-arrow-left" onClick={removeRegister}></i>
                     <h1>Create an account</h1>
                     <form className="register-form" onSubmit={registerHandler}>

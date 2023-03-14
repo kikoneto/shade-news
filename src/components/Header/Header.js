@@ -1,7 +1,7 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { useAuthInt } from '../../contexts/userInteractionContext';
 import { useAuth } from '../../contexts/authContext';
@@ -10,57 +10,63 @@ import { useAuth } from '../../contexts/authContext';
 export const Header = ({ setSkinColor }) => {
 
     const { user } = useAuth();
-    const { currAuth, changeAuth } = useAuthInt();
-
-    const [open, setOpen] = useState(false);
+    const { menu, changeToLogin, changeToRegister, changeToLogout, changeToNone, changeToMenu } = useAuthInt();
 
     useEffect(() => {
-        window.addEventListener('scroll', () => {
-            changeAuth('');
-            setOpen(false);
-        });
+        const handleScroll = () => {
+            const isScrolledDown = window.scrollY > 0;
+            if (isScrolledDown) {
+                console.log(menu)
+                if (menu) {
+                    changeToNone();
+                    console.log('menu');
+                } else {
+                    console.log('no-menu');
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', () => changeAuth(''));
+            window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [menu]);
 
 
     const guestNav = (
         <ul className="nav guest-nav main-nav">
-            <li className="sign-in" onClick={() => changeAuth('login')} >Sign In</li>
-            <li className="sign-up" onClick={() => changeAuth('register')} >Sign Up</li>
+            <li className="sign-in" onClick={changeToLogin} >Sign In</li>
+            <li className="sign-up" onClick={changeToRegister} >Sign Up</li>
         </ul>
     )
 
     const resGuestNav = (
         <ul className="nav guest-nav">
-            <li className="sign-in" onClick={() => changeAuth('login')} >Sign In</li>
-            <li className="sign-up" onClick={() => changeAuth('register')} >Sign Up</li>
+            <li className="sign-in" onClick={changeToLogin} >Sign In</li>
+            <li className="sign-up" onClick={changeToRegister} >Sign Up</li>
         </ul>
     )
 
     const userNav = (
         <ul className="nav home-nav main-nav">
             <li className="my-profile"><Link to='/my-profile'>My Profile</Link></li>
-            <li className="logout" onClick={() => changeAuth('logout')} >Logout</li>
+            <li className="logout" onClick={changeToLogout} >Logout</li>
         </ul>
     )
 
     const resUserNav = (
         <ul className="nav home-nav">
             <li className="my-profile"><Link to='/my-profile'>My Profile</Link></li>
-            <li className="logout" onClick={() => changeAuth('logout')} >Logout</li>
+            <li className="logout" onClick={changeToLogout} >Logout</li>
         </ul>
     );
 
     const onResNavHandler = () => {
-        if (open) {
-            setOpen(false);
-            changeAuth('');
+        if (menu) {
+            changeToNone();
         } else {
-            setOpen(true);
-            changeAuth('res-menu');
+            changeToMenu();
         }
     }
 
@@ -94,7 +100,7 @@ export const Header = ({ setSkinColor }) => {
                 </div>
             </div>
 
-            <div className={currAuth !== 'res-menu' ? 'responsive-menu' : 'responsive-menu open'}>
+            <div className={!menu ? 'responsive-menu' : 'responsive-menu open'}>
                 <ul className="menu">
                     <li className="home"><Link to='/'>Home</Link></li>
                     <li className="create"><Link to='/create'>Create</Link></li>
