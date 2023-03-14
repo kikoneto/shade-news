@@ -1,0 +1,64 @@
+[debug] [2023-03-14T09:30:07.480Z] ----------------------------------------------------------------------
+[debug] [2023-03-14T09:30:07.481Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kristiyan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-14T09:30:07.482Z] CLI Version:   11.23.1
+[debug] [2023-03-14T09:30:07.482Z] Platform:      win32
+[debug] [2023-03-14T09:30:07.482Z] Node Version:  v18.13.0
+[debug] [2023-03-14T09:30:07.483Z] Time:          Tue Mar 14 2023 11:30:07 GMT+0200 (Eastern European Standard Time)
+[debug] [2023-03-14T09:30:07.483Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-14T09:30:07.543Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-14T09:30:07.544Z] > authorizing via signed-in user (kikoner81@gmail.com)
+[debug] [2023-03-14T09:30:07.544Z] [iam] checking project shade-news for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-14T09:30:07.546Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/shade-news:testIamPermissions [none]
+[debug] [2023-03-14T09:30:07.546Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/shade-news:testIamPermissions x-goog-quota-user=projects/shade-news
+[debug] [2023-03-14T09:30:07.546Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shade-news:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-14T09:30:08.615Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/shade-news:testIamPermissions 200
+[debug] [2023-03-14T09:30:08.615Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shade-news:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-14T09:30:08.617Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shade-news [none]
+[debug] [2023-03-14T09:30:08.896Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shade-news 200
+[debug] [2023-03-14T09:30:08.897Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shade-news {"projectId":"shade-news","projectNumber":"961712383557","displayName":"Shade News","name":"projects/shade-news","resources":{"hostingSite":"shade-news"},"state":"ACTIVE","etag":"1_e06edc89-4a80-46db-9c9c-a447dca302ac"}
+[info] 
+[info] === Deploying to 'shade-news'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-03-14T09:30:08.903Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/shade-news/versions [none]
+[debug] [2023-03-14T09:30:08.904Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/shade-news/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-03-14T09:30:10.163Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/shade-news/versions 200
+[debug] [2023-03-14T09:30:10.163Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/shade-news/versions {"name":"projects/961712383557/sites/shade-news/versions/cd2606a19fd8f274","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[shade-news]: beginning deploy... 
+[info] i  hosting[shade-news]: found 14 files in build 
+[debug] [2023-03-14T09:30:10.173Z] [hosting] uploading with 200 concurrency
+[debug] [2023-03-14T09:30:10.279Z] [hosting] hash cache [YnVpbGQ] stored for 14 files
+[debug] [2023-03-14T09:30:10.279Z] [hosting][hash queue][FINAL] {"max":100,"min":2,"avg":11.428571428571429,"active":0,"complete":14,"success":14,"errored":0,"retried":0,"total":14,"elapsed":104}
+[debug] [2023-03-14T09:30:10.280Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/961712383557/sites/shade-news/versions/cd2606a19fd8f274:populateFiles [none]
+[debug] [2023-03-14T09:30:10.280Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/961712383557/sites/shade-news/versions/cd2606a19fd8f274:populateFiles {"files":{"/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/pinkicon.ico":"6e929bdc0a5ca64a6a90876c6d116bc0f30945c0eaf96936fd3d1ea949927c6a","/images/AP20056580390963-e1660147513773.jpg":"349e59051c76e0251aa1a2ba9b4023a9ca11021b65ab23b72937bbc9f16705e1","/images/Color Pattern.png":"5cf50a21bcf852e8fa09329af43c6292857cecb444ccdde26e8f030f31add1c9","/images/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg":"38af2377001d77fb30170da570a1038c9a8694185606dd63756fb7591f1f9122","/asset-manifest.json":"4de40b04d514e6443522ef0923e9be7ce466be928678f25d8d85024f97e1ff2d","/index.html":"0d1162ad57a6fb5669a0660d1cddb2db21458179667e0652d27e229871f87557","/static/css/main.8f5a5eb5.css":"2df249a26c3f10995e419c41ac7d660d7971c46fe7ae1aa8ab0bcc67bece1c1b","/static/js/787.7c884d9e.chunk.js":"5a32801af62fe84e8765d72162b2e4a1d65c904f70c6d27aa1c9c4cc19c7bbab","/static/js/787.7c884d9e.chunk.js.map":"d89422af883b2233de304a5790031e0dc74ecc31b76a761dd6a80cd4da370031","/static/js/main.b12bb19e.js.LICENSE.txt":"84f8a210e50cd58e5c66c90e6c8783085028357e9c930478df688c1eff1fda5a","/static/css/main.8f5a5eb5.css.map":"4f71a47e97fe272f0791fabc9ca86e2c7aca590d01c3725a8ebe2246cb8fe8ba","/static/js/main.b12bb19e.js":"5c8dda19a406f464ef29ac3b30523ae24b8159d495625c17fde7a7447ab94546","/static/js/main.b12bb19e.js.map":"05053e1f1bd1b12d134cadde390cf3f1206f4de79960c15c62c90aa3e4a4767a"}}
+[debug] [2023-03-14T09:30:11.415Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/961712383557/sites/shade-news/versions/cd2606a19fd8f274:populateFiles 200
+[debug] [2023-03-14T09:30:11.415Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/961712383557/sites/shade-news/versions/cd2606a19fd8f274:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/shade-news/versions/cd2606a19fd8f274/files"}
+[debug] [2023-03-14T09:30:11.415Z] [hosting][populate queue][FINAL] {"max":1137,"min":1137,"avg":1137,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1137}
+[debug] [2023-03-14T09:30:11.415Z] [hosting] uploads queued: 0
+[debug] [2023-03-14T09:30:11.415Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1678786211415}
+[info] +  hosting[shade-news]: file upload complete 
+[debug] [2023-03-14T09:30:11.416Z] [hosting] deploy completed after 1252ms
+[debug] [2023-03-14T09:30:11.418Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "shade-news"
+    },
+    "version": "projects/961712383557/sites/shade-news/versions/cd2606a19fd8f274"
+  }
+]
+[info] i  hosting[shade-news]: finalizing version... 
+[debug] [2023-03-14T09:30:11.420Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/shade-news/versions/cd2606a19fd8f274 updateMask=status%2Cconfig
+[debug] [2023-03-14T09:30:11.420Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/shade-news/versions/cd2606a19fd8f274 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
