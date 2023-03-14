@@ -10,7 +10,7 @@ export const NewsCatalog = () => {
 
     useEffect(() => {
         getAllNews();
-    }, [])
+    }, [news])
 
     return (
 

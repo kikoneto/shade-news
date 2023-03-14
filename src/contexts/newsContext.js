@@ -18,7 +18,7 @@ export const NewsProvider = ({ children }) => {
 
     const createNews = (post, accessToken) => {
         create(post, accessToken)
-            .then(() => alert('Successful'))
+            .then(() => console.log('Succressful Create'))
             .catch(err => {
                 alert(err.message);
             });
@@ -26,7 +26,7 @@ export const NewsProvider = ({ children }) => {
 
     const editNews = (id, body, accessToken) => {
         edit(id, body, accessToken)
-            .then(() => alert('Successful Edit'))
+            .then(() => console.log('Successful Edit'))
             .catch(err => {
                 alert(err.message);
             });
@@ -34,7 +34,7 @@ export const NewsProvider = ({ children }) => {
 
     const deleteNews = (id, accessToken) => {
         del(id, accessToken)
-            .then(() => alert('Successful Remove!'))
+            .then(() => console.log('Successful Remove!'))
             .catch(err => {
                 alert(err.message);
             });
